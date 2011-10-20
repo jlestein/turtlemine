@@ -1,0 +1,193 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="$this.Text">
+    <value>גרסה חדשה נמצאו</value>
+    <comment>Automatically translated using Google</comment>
+  </data>
+  <data name="&gt;&gt;$this.Name">
+    <value>VersionNotice</value>
+    <comment>Automatically translated using Google</comment>
+  </data>
+  <data name="&gt;&gt;$this.Type">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version = 2.0.0.0, תרבות = ניטרלי, PublicKeyToken = b77a5c561934e089</value>
+    <comment>Automatically translated using Google</comment>
+  </data>
+  <data name="&gt;&gt;btnOK.Name">
+    <value>btnOK</value>
+    <comment>Automatically translated using Google</comment>
+  </data>
+  <data name="&gt;&gt;btnOK.Parent">
+    <value>$ זה</value>
+    <comment>Automatically translated using Google</comment>
+  </data>
+  <data name="&gt;&gt;btnOK.Type">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version = 2.0.0.0, תרבות = ניטרלי, PublicKeyToken = b77a5c561934e089</value>
+    <comment>Automatically translated using Google</comment>
+  </data>
+  <data name="&gt;&gt;btnOK.ZOrder">
+    <value>5</value>
+    <comment>Automatically translated using Google</comment>
+  </data>
+  <data name="&gt;&gt;lblCurrentVersionNumber.Name">
+    <value>lblCurrentVersionNumber</value>
+    <comment>Automatically translated using Google</comment>
+  </data>
+  <data name="&gt;&gt;lblCurrentVersionNumber.Parent">
+    <value>$ זה</value>
+    <comment>Automatically translated using Google</comment>
+  </data>
+  <data name="&gt;&gt;lblCurrentVersionNumber.Type">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version = 2.0.0.0, תרבות = ניטרלי, PublicKeyToken = b77a5c561934e089</value>
+    <comment>Automatically translated using Google</comment>
+  </data>
+  <data name="&gt;&gt;lblCurrentVersionNumber.ZOrder">
+    <value>1</value>
+    <comment>Automatically translated using Google</comment>
+  </data>
+  <data name="&gt;&gt;lblCurrentVersionTitle.Name">
+    <value>lblCurrentVersionTitle</value>
+    <comment>Automatically translated using Google</comment>
+  </data>
+  <data name="&gt;&gt;lblCurrentVersionTitle.Parent">
+    <value>$ זה</value>
+    <comment>Automatically translated using Google</comment>
+  </data>
+  <data name="&gt;&gt;lblCurrentVersionTitle.Type">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version = 2.0.0.0, תרבות = ניטרלי, PublicKeyToken = b77a5c561934e089</value>
+    <comment>Automatically translated using Google</comment>
+  </data>
+  <data name="&gt;&gt;lblCurrentVersionTitle.ZOrder">
+    <value>4</value>
+    <comment>Automatically translated using Google</comment>
+  </data>
+  <data name="&gt;&gt;lblLatestVersionTitle.Name">
+    <value>lblLatestVersionTitle</value>
+    <comment>Automatically translated using Google</comment>
+  </data>
+  <data name="&gt;&gt;lblLatestVersionTitle.Parent">
+    <value>$ זה</value>
+    <comment>Automatically translated using Google</comment>
+  </data>
+  <data name="&gt;&gt;lblLatestVersionTitle.Type">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version = 2.0.0.0, תרבות = ניטרלי, PublicKeyToken = b77a5c561934e089</value>
+    <comment>Automatically translated using Google</comment>
+  </data>
+  <data name="&gt;&gt;lblLatestVersionTitle.ZOrder">
+    <value>0</value>
+    <comment>Automatically translated using Google</comment>
+  </data>
+  <data name="&gt;&gt;lnkChangeList.Name">
+    <value>lnkChangeList</value>
+    <comment>Automatically translated using Google</comment>
+  </data>
+  <data name="&gt;&gt;lnkChangeList.Parent">
+    <value>$ זה</value>
+    <comment>Automatically translated using Google</comment>
+  </data>
+  <data name="&gt;&gt;lnkChangeList.Type">
+    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version = 2.0.0.0, תרבות = ניטרלי, PublicKeyToken = b77a5c561934e089</value>
+    <comment>Automatically translated using Google</comment>
+  </data>
+  <data name="&gt;&gt;lnkChangeList.ZOrder">
+    <value>2</value>
+    <comment>Automatically translated using Google</comment>
+  </data>
+  <data name="&gt;&gt;lnkLatestVersion.Name">
+    <value>lnkLatestVersion</value>
+    <comment>Automatically translated using Google</comment>
+  </data>
+  <data name="&gt;&gt;lnkLatestVersion.Parent">
+    <value>$ זה</value>
+    <comment>Automatically translated using Google</comment>
+  </data>
+  <data name="&gt;&gt;lnkLatestVersion.Type">
+    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version = 2.0.0.0, תרבות = ניטרלי, PublicKeyToken = b77a5c561934e089</value>
+    <comment>Automatically translated using Google</comment>
+  </data>
+  <data name="&gt;&gt;lnkLatestVersion.ZOrder">
+    <value>3</value>
+    <comment>Automatically translated using Google</comment>
+  </data>
+  <data name="btnOK.Text">
+    <value>&amp; אישור</value>
+    <comment>Automatically translated using Google</comment>
+  </data>
+  <data name="lblCurrentVersionNumber.Text">
+    <value>1.1.0.2</value>
+    <comment>Automatically translated using Google</comment>
+  </data>
+  <data name="lblCurrentVersionTitle.Text">
+    <value>גרסה נוכחית</value>
+    <comment>Automatically translated using Google</comment>
+  </data>
+  <data name="lblLatestVersionTitle.Text">
+    <value>הגרסה העדכנית ביותר</value>
+    <comment>Automatically translated using Google</comment>
+  </data>
+  <data name="lnkChangeList.Text">
+    <value>הערות</value>
+    <comment>Automatically translated using Google</comment>
+  </data>
+  <data name="lnkLatestVersion.Text">
+    <value>1.1.0.2</value>
+    <comment>Automatically translated using Google</comment>
+  </data>
+</root>
