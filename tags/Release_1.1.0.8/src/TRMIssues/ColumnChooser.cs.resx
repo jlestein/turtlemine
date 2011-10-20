@@ -1,0 +1,249 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="$this.Text">
+    <value>Výběr sloupců</value>
+    <comment>Automatically translated using Google</comment>
+  </data>
+  <data name="&gt;&gt;$this.Name">
+    <value>ColumnChooser</value>
+    <comment>Automatically translated using Google</comment>
+  </data>
+  <data name="&gt;&gt;$this.Type">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version = 2.0.0.0, kultura = neutrální, PublicKeyToken = b77a5c561934e089</value>
+    <comment>Automatically translated using Google</comment>
+  </data>
+  <data name="&gt;&gt;btnCancel.Name">
+    <value>btnCancel</value>
+    <comment>Automatically translated using Google</comment>
+  </data>
+  <data name="&gt;&gt;btnCancel.Parent">
+    <value>pnlOkCancel</value>
+    <comment>Automatically translated using Google</comment>
+  </data>
+  <data name="&gt;&gt;btnCancel.Type">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version = 2.0.0.0, kultura = neutrální, PublicKeyToken = b77a5c561934e089</value>
+    <comment>Automatically translated using Google</comment>
+  </data>
+  <data name="&gt;&gt;btnCancel.ZOrder">
+    <value>0</value>
+    <comment>Automatically translated using Google</comment>
+  </data>
+  <data name="&gt;&gt;btnLeft.Name">
+    <value>btnLeft</value>
+    <comment>Automatically translated using Google</comment>
+  </data>
+  <data name="&gt;&gt;btnLeft.Parent">
+    <value>pnlChooser</value>
+    <comment>Automatically translated using Google</comment>
+  </data>
+  <data name="&gt;&gt;btnLeft.Type">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version = 2.0.0.0, kultura = neutrální, PublicKeyToken = b77a5c561934e089</value>
+    <comment>Automatically translated using Google</comment>
+  </data>
+  <data name="&gt;&gt;btnLeft.ZOrder">
+    <value>4</value>
+    <comment>Automatically translated using Google</comment>
+  </data>
+  <data name="&gt;&gt;btnOk.Name">
+    <value>btnOk</value>
+    <comment>Automatically translated using Google</comment>
+  </data>
+  <data name="&gt;&gt;btnOk.Parent">
+    <value>pnlOkCancel</value>
+    <comment>Automatically translated using Google</comment>
+  </data>
+  <data name="&gt;&gt;btnOk.Type">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version = 2.0.0.0, kultura = neutrální, PublicKeyToken = b77a5c561934e089</value>
+    <comment>Automatically translated using Google</comment>
+  </data>
+  <data name="&gt;&gt;btnOk.ZOrder">
+    <value>1</value>
+    <comment>Automatically translated using Google</comment>
+  </data>
+  <data name="&gt;&gt;btnRight.Name">
+    <value>btnRight</value>
+    <comment>Automatically translated using Google</comment>
+  </data>
+  <data name="&gt;&gt;btnRight.Parent">
+    <value>pnlChooser</value>
+    <comment>Automatically translated using Google</comment>
+  </data>
+  <data name="&gt;&gt;btnRight.Type">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version = 2.0.0.0, kultura = neutrální, PublicKeyToken = b77a5c561934e089</value>
+    <comment>Automatically translated using Google</comment>
+  </data>
+  <data name="&gt;&gt;btnRight.ZOrder">
+    <value>5</value>
+    <comment>Automatically translated using Google</comment>
+  </data>
+  <data name="&gt;&gt;lblAvailableColumns.Name">
+    <value>lblAvailableColumns</value>
+    <comment>Automatically translated using Google</comment>
+  </data>
+  <data name="&gt;&gt;lblAvailableColumns.Parent">
+    <value>pnlChooser</value>
+    <comment>Automatically translated using Google</comment>
+  </data>
+  <data name="&gt;&gt;lblAvailableColumns.Type">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version = 2.0.0.0, kultura = neutrální, PublicKeyToken = b77a5c561934e089</value>
+    <comment>Automatically translated using Google</comment>
+  </data>
+  <data name="&gt;&gt;lblAvailableColumns.ZOrder">
+    <value>3</value>
+    <comment>Automatically translated using Google</comment>
+  </data>
+  <data name="&gt;&gt;lblCurrentColumns.Name">
+    <value>lblCurrentColumns</value>
+    <comment>Automatically translated using Google</comment>
+  </data>
+  <data name="&gt;&gt;lblCurrentColumns.Parent">
+    <value>pnlChooser</value>
+    <comment>Automatically translated using Google</comment>
+  </data>
+  <data name="&gt;&gt;lblCurrentColumns.Type">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version = 2.0.0.0, kultura = neutrální, PublicKeyToken = b77a5c561934e089</value>
+    <comment>Automatically translated using Google</comment>
+  </data>
+  <data name="&gt;&gt;lblCurrentColumns.ZOrder">
+    <value>2</value>
+    <comment>Automatically translated using Google</comment>
+  </data>
+  <data name="&gt;&gt;lstAvailable.Name">
+    <value>lstAvailable</value>
+    <comment>Automatically translated using Google</comment>
+  </data>
+  <data name="&gt;&gt;lstAvailable.Parent">
+    <value>pnlChooser</value>
+    <comment>Automatically translated using Google</comment>
+  </data>
+  <data name="&gt;&gt;lstAvailable.Type">
+    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Version = 2.0.0.0, kultura = neutrální, PublicKeyToken = b77a5c561934e089</value>
+    <comment>Automatically translated using Google</comment>
+  </data>
+  <data name="&gt;&gt;lstAvailable.ZOrder">
+    <value>1</value>
+    <comment>Automatically translated using Google</comment>
+  </data>
+  <data name="&gt;&gt;lstCurrent.Name">
+    <value>lstCurrent</value>
+    <comment>Automatically translated using Google</comment>
+  </data>
+  <data name="&gt;&gt;lstCurrent.Parent">
+    <value>pnlChooser</value>
+    <comment>Automatically translated using Google</comment>
+  </data>
+  <data name="&gt;&gt;lstCurrent.Type">
+    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Version = 2.0.0.0, kultura = neutrální, PublicKeyToken = b77a5c561934e089</value>
+    <comment>Automatically translated using Google</comment>
+  </data>
+  <data name="&gt;&gt;lstCurrent.ZOrder">
+    <value>0</value>
+    <comment>Automatically translated using Google</comment>
+  </data>
+  <data name="&gt;&gt;pnlChooser.Name">
+    <value>pnlChooser</value>
+    <comment>Automatically translated using Google</comment>
+  </data>
+  <data name="&gt;&gt;pnlChooser.Parent">
+    <value>$ This</value>
+    <comment>Automatically translated using Google</comment>
+  </data>
+  <data name="&gt;&gt;pnlChooser.Type">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version = 2.0.0.0, kultura = neutrální, PublicKeyToken = b77a5c561934e089</value>
+    <comment>Automatically translated using Google</comment>
+  </data>
+  <data name="&gt;&gt;pnlChooser.ZOrder">
+    <value>0</value>
+    <comment>Automatically translated using Google</comment>
+  </data>
+  <data name="&gt;&gt;pnlOkCancel.Name">
+    <value>pnlOkCancel</value>
+    <comment>Automatically translated using Google</comment>
+  </data>
+  <data name="&gt;&gt;pnlOkCancel.Parent">
+    <value>pnlChooser</value>
+    <comment>Automatically translated using Google</comment>
+  </data>
+  <data name="&gt;&gt;pnlOkCancel.Type">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version = 2.0.0.0, kultura = neutrální, PublicKeyToken = b77a5c561934e089</value>
+    <comment>Automatically translated using Google</comment>
+  </data>
+  <data name="&gt;&gt;pnlOkCancel.ZOrder">
+    <value>6</value>
+    <comment>Automatically translated using Google</comment>
+  </data>
+  <data name="btnCancel.Text">
+    <value>Zrušit</value>
+    <comment>Automatically translated using Google</comment>
+  </data>
+  <data name="btnOk.Text">
+    <value>O &amp; K</value>
+    <comment>Automatically translated using Google</comment>
+  </data>
+  <data name="lblAvailableColumns.Text">
+    <value>Dostupné Sloupce</value>
+    <comment>Automatically translated using Google</comment>
+  </data>
+  <data name="lblCurrentColumns.Text">
+    <value>V současné době vybraných sloupců</value>
+    <comment>Automatically translated using Google</comment>
+  </data>
+</root>

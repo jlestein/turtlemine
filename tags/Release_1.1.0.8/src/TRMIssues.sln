@@ -1,0 +1,69 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Setup - Common files", "Setup - Common files", "{586EDFA5-4EB4-48C7-BA93-1FD64B51033E}"
+	ProjectSection(SolutionItems) = preProject
+		CommonSetupFiles\RegTRMI.vbs = CommonSetupFiles\RegTRMI.vbs
+		CommonSetupFiles\RemoveVersion1.0.4.4.vbs = CommonSetupFiles\RemoveVersion1.0.4.4.vbs
+		CommonSetupFiles\UpdateProductGuidForProjects.vbs = CommonSetupFiles\UpdateProductGuidForProjects.vbs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Setup", "Setup", "{3AF88AC6-8E87-4885-ADD4-2E43C0FFE4C9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Plugin", "Plugin", "{0EA8F0E6-F0B7-4F05-910C-D250FF86185B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TRMIssues", "TRMIssues\TRMIssues.csproj", "{6F1A5334-54D4-4D68-9A95-72D41B0E8087}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Setup-x86", "32bitSetup\Setup-x86.vdproj", "{D4E4AB85-4463-41C4-9989-5D5D01421869}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Setup-x64", "64bitSetup\Setup-x64.vdproj", "{72FB773B-CCD8-4463-95DB-36626FC36BFE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TRMIssuesConfig", "TRMIssuesConfig\TRMIssuesConfig.csproj", "{C99D57C0-E375-40B2-B9B8-78529172DD76}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6F1A5334-54D4-4D68-9A95-72D41B0E8087}.Debug|x64.ActiveCfg = Debug|x64
+		{6F1A5334-54D4-4D68-9A95-72D41B0E8087}.Debug|x64.Build.0 = Debug|x64
+		{6F1A5334-54D4-4D68-9A95-72D41B0E8087}.Debug|x86.ActiveCfg = Debug|x86
+		{6F1A5334-54D4-4D68-9A95-72D41B0E8087}.Debug|x86.Build.0 = Debug|x86
+		{6F1A5334-54D4-4D68-9A95-72D41B0E8087}.Release|x64.ActiveCfg = Release|x64
+		{6F1A5334-54D4-4D68-9A95-72D41B0E8087}.Release|x64.Build.0 = Release|x64
+		{6F1A5334-54D4-4D68-9A95-72D41B0E8087}.Release|x86.ActiveCfg = Release|x86
+		{6F1A5334-54D4-4D68-9A95-72D41B0E8087}.Release|x86.Build.0 = Release|x86
+		{D4E4AB85-4463-41C4-9989-5D5D01421869}.Debug|x64.ActiveCfg = Debug
+		{D4E4AB85-4463-41C4-9989-5D5D01421869}.Debug|x86.ActiveCfg = Debug
+		{D4E4AB85-4463-41C4-9989-5D5D01421869}.Debug|x86.Build.0 = Debug
+		{D4E4AB85-4463-41C4-9989-5D5D01421869}.Release|x64.ActiveCfg = Release
+		{D4E4AB85-4463-41C4-9989-5D5D01421869}.Release|x86.ActiveCfg = Release
+		{D4E4AB85-4463-41C4-9989-5D5D01421869}.Release|x86.Build.0 = Release
+		{72FB773B-CCD8-4463-95DB-36626FC36BFE}.Debug|x64.ActiveCfg = Debug
+		{72FB773B-CCD8-4463-95DB-36626FC36BFE}.Debug|x64.Build.0 = Debug
+		{72FB773B-CCD8-4463-95DB-36626FC36BFE}.Debug|x86.ActiveCfg = Debug
+		{72FB773B-CCD8-4463-95DB-36626FC36BFE}.Release|x64.ActiveCfg = Release
+		{72FB773B-CCD8-4463-95DB-36626FC36BFE}.Release|x64.Build.0 = Release
+		{72FB773B-CCD8-4463-95DB-36626FC36BFE}.Release|x86.ActiveCfg = Release
+		{C99D57C0-E375-40B2-B9B8-78529172DD76}.Debug|x64.ActiveCfg = Debug|x64
+		{C99D57C0-E375-40B2-B9B8-78529172DD76}.Debug|x64.Build.0 = Debug|x64
+		{C99D57C0-E375-40B2-B9B8-78529172DD76}.Debug|x86.ActiveCfg = Debug|x86
+		{C99D57C0-E375-40B2-B9B8-78529172DD76}.Debug|x86.Build.0 = Debug|x86
+		{C99D57C0-E375-40B2-B9B8-78529172DD76}.Release|x64.ActiveCfg = Release|x64
+		{C99D57C0-E375-40B2-B9B8-78529172DD76}.Release|x64.Build.0 = Release|x64
+		{C99D57C0-E375-40B2-B9B8-78529172DD76}.Release|x86.ActiveCfg = Release|x86
+		{C99D57C0-E375-40B2-B9B8-78529172DD76}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D4E4AB85-4463-41C4-9989-5D5D01421869} = {3AF88AC6-8E87-4885-ADD4-2E43C0FFE4C9}
+		{72FB773B-CCD8-4463-95DB-36626FC36BFE} = {3AF88AC6-8E87-4885-ADD4-2E43C0FFE4C9}
+		{6F1A5334-54D4-4D68-9A95-72D41B0E8087} = {0EA8F0E6-F0B7-4F05-910C-D250FF86185B}
+		{C99D57C0-E375-40B2-B9B8-78529172DD76} = {0EA8F0E6-F0B7-4F05-910C-D250FF86185B}
+	EndGlobalSection
+EndGlobal

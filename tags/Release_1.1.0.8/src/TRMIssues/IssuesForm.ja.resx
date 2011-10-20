@@ -1,0 +1,521 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="$this.Text">
+    <value>記法の問題</value>
+    <comment>Automatically translated using Google</comment>
+  </data>
+  <data name="&gt;&gt;$this.Name">
+    <value>IssuesForm</value>
+    <comment>Automatically translated using Google</comment>
+  </data>
+  <data name="&gt;&gt;$this.Type">
+    <value>System.Windows.Forms.Form、System.Windows.Forms、バージョン= 2.0.0.0、文化= PublicKeyTokenニュートラル= b77a5c561934e089</value>
+    <comment>Automatically translated using Google</comment>
+  </data>
+  <data name="&gt;&gt;btnCancel.Name">
+    <value>btnCancel</value>
+    <comment>Automatically translated using Google</comment>
+  </data>
+  <data name="&gt;&gt;btnCancel.Parent">
+    <value>$この</value>
+    <comment>Automatically translated using Google</comment>
+  </data>
+  <data name="&gt;&gt;btnCancel.Type">
+    <value>System.Windows.Forms.Button、System.Windows.Forms、バージョン= 2.0.0.0、文化= PublicKeyTokenニュートラル= b77a5c561934e089</value>
+    <comment>Automatically translated using Google</comment>
+  </data>
+  <data name="&gt;&gt;btnCancel.ZOrder">
+    <value>9</value>
+    <comment>Automatically translated using Google</comment>
+  </data>
+  <data name="&gt;&gt;btnCheck.Name">
+    <value>btnCheck</value>
+    <comment>Automatically translated using Google</comment>
+  </data>
+  <data name="&gt;&gt;btnCheck.Parent">
+    <value>pnlSelection</value>
+    <comment>Automatically translated using Google</comment>
+  </data>
+  <data name="&gt;&gt;btnCheck.Type">
+    <value>System.Windows.Forms.Button、System.Windows.Forms、バージョン= 2.0.0.0、文化= PublicKeyTokenニュートラル= b77a5c561934e089</value>
+    <comment>Automatically translated using Google</comment>
+  </data>
+  <data name="&gt;&gt;btnCheck.ZOrder">
+    <value>1</value>
+    <comment>Automatically translated using Google</comment>
+  </data>
+  <data name="&gt;&gt;btnDescription.Name">
+    <value>btnDescription</value>
+    <comment>Automatically translated using Google</comment>
+  </data>
+  <data name="&gt;&gt;btnDescription.Parent">
+    <value>$この</value>
+    <comment>Automatically translated using Google</comment>
+  </data>
+  <data name="&gt;&gt;btnDescription.Type">
+    <value>System.Windows.Forms.Button、System.Windows.Forms、バージョン= 2.0.0.0、文化= PublicKeyTokenニュートラル= b77a5c561934e089</value>
+    <comment>Automatically translated using Google</comment>
+  </data>
+  <data name="&gt;&gt;btnDescription.ZOrder">
+    <value>5</value>
+    <comment>Automatically translated using Google</comment>
+  </data>
+  <data name="&gt;&gt;btnNext.Name">
+    <value>btnNext</value>
+    <comment>Automatically translated using Google</comment>
+  </data>
+  <data name="&gt;&gt;btnNext.Parent">
+    <value>pnlSelection</value>
+    <comment>Automatically translated using Google</comment>
+  </data>
+  <data name="&gt;&gt;btnNext.Type">
+    <value>System.Windows.Forms.Button、System.Windows.Forms、バージョン= 2.0.0.0、文化= PublicKeyTokenニュートラル= b77a5c561934e089</value>
+    <comment>Automatically translated using Google</comment>
+  </data>
+  <data name="&gt;&gt;btnNext.ZOrder">
+    <value>0</value>
+    <comment>Automatically translated using Google</comment>
+  </data>
+  <data name="&gt;&gt;btnOk.Name">
+    <value>btnOk</value>
+    <comment>Automatically translated using Google</comment>
+  </data>
+  <data name="&gt;&gt;btnOk.Parent">
+    <value>$この</value>
+    <comment>Automatically translated using Google</comment>
+  </data>
+  <data name="&gt;&gt;btnOk.Type">
+    <value>System.Windows.Forms.Button、System.Windows.Forms、バージョン= 2.0.0.0、文化= PublicKeyTokenニュートラル= b77a5c561934e089</value>
+    <comment>Automatically translated using Google</comment>
+  </data>
+  <data name="&gt;&gt;btnOk.ZOrder">
+    <value>6</value>
+    <comment>Automatically translated using Google</comment>
+  </data>
+  <data name="&gt;&gt;btnOpenRedmine.Name">
+    <value>btnOpenRedmine</value>
+    <comment>Automatically translated using Google</comment>
+  </data>
+  <data name="&gt;&gt;btnOpenRedmine.Parent">
+    <value>$この</value>
+    <comment>Automatically translated using Google</comment>
+  </data>
+  <data name="&gt;&gt;btnOpenRedmine.Type">
+    <value>System.Windows.Forms.Button、System.Windows.Forms、バージョン= 2.0.0.0、文化= PublicKeyTokenニュートラル= b77a5c561934e089</value>
+    <comment>Automatically translated using Google</comment>
+  </data>
+  <data name="&gt;&gt;btnOpenRedmine.ZOrder">
+    <value>4</value>
+    <comment>Automatically translated using Google</comment>
+  </data>
+  <data name="&gt;&gt;btnTimeEntry.Name">
+    <value>btnTimeEntry</value>
+    <comment>Automatically translated using Google</comment>
+  </data>
+  <data name="&gt;&gt;btnTimeEntry.Parent">
+    <value>$この</value>
+    <comment>Automatically translated using Google</comment>
+  </data>
+  <data name="&gt;&gt;btnTimeEntry.Type">
+    <value>System.Windows.Forms.Button、System.Windows.Forms、バージョン= 2.0.0.0、文化= PublicKeyTokenニュートラル= b77a5c561934e089</value>
+    <comment>Automatically translated using Google</comment>
+  </data>
+  <data name="&gt;&gt;btnTimeEntry.ZOrder">
+    <value>3</value>
+    <comment>Automatically translated using Google</comment>
+  </data>
+  <data name="&gt;&gt;chkIncludeSummary.Name">
+    <value>chkIncludeSummary</value>
+    <comment>Automatically translated using Google</comment>
+  </data>
+  <data name="&gt;&gt;chkIncludeSummary.Parent">
+    <value>$この</value>
+    <comment>Automatically translated using Google</comment>
+  </data>
+  <data name="&gt;&gt;chkIncludeSummary.Type">
+    <value>System.Windows.Forms.CheckBox、System.Windows.Forms、バージョン= 2.0.0.0、文化= PublicKeyTokenニュートラル= b77a5c561934e089</value>
+    <comment>Automatically translated using Google</comment>
+  </data>
+  <data name="&gt;&gt;chkIncludeSummary.ZOrder">
+    <value>1</value>
+    <comment>Automatically translated using Google</comment>
+  </data>
+  <data name="&gt;&gt;chooseColumnsToDisplayToolStripMenuItem.Name">
+    <value>chooseColumnsToDisplayToolStripMenuItem</value>
+    <comment>Automatically translated using Google</comment>
+  </data>
+  <data name="&gt;&gt;chooseColumnsToDisplayToolStripMenuItem.Type">
+    <value>System.Windows.Forms.ToolStripMenuItem、System.Windows.Forms、バージョン= 2.0.0.0、文化= PublicKeyTokenニュートラル= b77a5c561934e089</value>
+    <comment>Automatically translated using Google</comment>
+  </data>
+  <data name="&gt;&gt;cmsIssueList.Name">
+    <value>cmsIssueList</value>
+    <comment>Automatically translated using Google</comment>
+  </data>
+  <data name="&gt;&gt;cmsIssueList.Type">
+    <value>System.Windows.Forms.ContextMenuStrip、System.Windows.Forms、バージョン= 2.0.0.0、文化= PublicKeyTokenニュートラル= b77a5c561934e089</value>
+    <comment>Automatically translated using Google</comment>
+  </data>
+  <data name="&gt;&gt;gbxSearch.Name">
+    <value>gbxSearch</value>
+    <comment>Automatically translated using Google</comment>
+  </data>
+  <data name="&gt;&gt;gbxSearch.Parent">
+    <value>$この</value>
+    <comment>Automatically translated using Google</comment>
+  </data>
+  <data name="&gt;&gt;gbxSearch.Type">
+    <value>System.Windows.Forms.GroupBox、System.Windows.Forms、バージョン= 2.0.0.0、文化= PublicKeyTokenニュートラル= b77a5c561934e089</value>
+    <comment>Automatically translated using Google</comment>
+  </data>
+  <data name="&gt;&gt;gbxSearch.ZOrder">
+    <value>8</value>
+    <comment>Automatically translated using Google</comment>
+  </data>
+  <data name="&gt;&gt;helpProviderToolTip.Name">
+    <value>helpProviderToolTip</value>
+    <comment>Automatically translated using Google</comment>
+  </data>
+  <data name="&gt;&gt;helpProviderToolTip.Type">
+    <value>System.Windows.Forms.HelpProvider、System.Windows.Forms、バージョン= 2.0.0.0、文化= PublicKeyTokenニュートラル= b77a5c561934e089</value>
+    <comment>Automatically translated using Google</comment>
+  </data>
+  <data name="&gt;&gt;ilstSortImages.Name">
+    <value>ilstSortImages</value>
+    <comment>Automatically translated using Google</comment>
+  </data>
+  <data name="&gt;&gt;ilstSortImages.Type">
+    <value>System.Windows.Forms.ImageList、System.Windows.Forms、バージョン= 2.0.0.0、文化= PublicKeyTokenニュートラル= b77a5c561934e089</value>
+    <comment>Automatically translated using Google</comment>
+  </data>
+  <data name="&gt;&gt;lblStatus.Name">
+    <value>lblStatus</value>
+    <comment>Automatically translated using Google</comment>
+  </data>
+  <data name="&gt;&gt;lblStatus.Type">
+    <value>System.Windows.Forms.ToolStripStatusLabel、System.Windows.Forms、バージョン= 2.0.0.0、文化= PublicKeyTokenニュートラル= b77a5c561934e089</value>
+    <comment>Automatically translated using Google</comment>
+  </data>
+  <data name="&gt;&gt;lblUpdateAvailable.Name">
+    <value>lblUpdateAvailable</value>
+    <comment>Automatically translated using Google</comment>
+  </data>
+  <data name="&gt;&gt;lblUpdateAvailable.Type">
+    <value>System.Windows.Forms.ToolStripStatusLabel、System.Windows.Forms、バージョン= 2.0.0.0、文化= PublicKeyTokenニュートラル= b77a5c561934e089</value>
+    <comment>Automatically translated using Google</comment>
+  </data>
+  <data name="&gt;&gt;lblVersion.Name">
+    <value>lblVersion</value>
+    <comment>Automatically translated using Google</comment>
+  </data>
+  <data name="&gt;&gt;lblVersion.Type">
+    <value>System.Windows.Forms.ToolStripStatusLabel、System.Windows.Forms、バージョン= 2.0.0.0、文化= PublicKeyTokenニュートラル= b77a5c561934e089</value>
+    <comment>Automatically translated using Google</comment>
+  </data>
+  <data name="&gt;&gt;lvwIssueList.Name">
+    <value>lvwIssueList</value>
+    <comment>Automatically translated using Google</comment>
+  </data>
+  <data name="&gt;&gt;lvwIssueList.Parent">
+    <value>splitContainer1.Panel1</value>
+    <comment>Automatically translated using Google</comment>
+  </data>
+  <data name="&gt;&gt;lvwIssueList.Type">
+    <value>System.Windows.Forms.ListView、System.Windows.Forms、バージョン= 2.0.0.0、文化= PublicKeyTokenニュートラル= b77a5c561934e089</value>
+    <comment>Automatically translated using Google</comment>
+  </data>
+  <data name="&gt;&gt;lvwIssueList.ZOrder">
+    <value>0</value>
+    <comment>Automatically translated using Google</comment>
+  </data>
+  <data name="&gt;&gt;pbrLoading.Name">
+    <value>pbrLoading</value>
+    <comment>Automatically translated using Google</comment>
+  </data>
+  <data name="&gt;&gt;pbrLoading.Type">
+    <value>System.Windows.Forms.ToolStripProgressBar、System.Windows.Forms、バージョン= 2.0.0.0、文化= PublicKeyTokenニュートラル= b77a5c561934e089</value>
+    <comment>Automatically translated using Google</comment>
+  </data>
+  <data name="&gt;&gt;pnlSelection.Name">
+    <value>pnlSelection</value>
+    <comment>Automatically translated using Google</comment>
+  </data>
+  <data name="&gt;&gt;pnlSelection.Parent">
+    <value>gbxSearch</value>
+    <comment>Automatically translated using Google</comment>
+  </data>
+  <data name="&gt;&gt;pnlSelection.Type">
+    <value>System.Windows.Forms.Panel、System.Windows.Forms、バージョン= 2.0.0.0、文化= PublicKeyTokenニュートラル= b77a5c561934e089</value>
+    <comment>Automatically translated using Google</comment>
+  </data>
+  <data name="&gt;&gt;pnlSelection.ZOrder">
+    <value>1</value>
+    <comment>Automatically translated using Google</comment>
+  </data>
+  <data name="&gt;&gt;resetIssueListDisplayToolStripMenuItem.Name">
+    <value>resetIssueListDisplayToolStripMenuItem</value>
+    <comment>Automatically translated using Google</comment>
+  </data>
+  <data name="&gt;&gt;resetIssueListDisplayToolStripMenuItem.Type">
+    <value>System.Windows.Forms.ToolStripMenuItem、System.Windows.Forms、バージョン= 2.0.0.0、文化= PublicKeyTokenニュートラル= b77a5c561934e089</value>
+    <comment>Automatically translated using Google</comment>
+  </data>
+  <data name="&gt;&gt;splitContainer1.Name">
+    <value>splitContainer1</value>
+    <comment>Automatically translated using Google</comment>
+  </data>
+  <data name="&gt;&gt;splitContainer1.Panel1.Name">
+    <value>splitContainer1.Panel1</value>
+    <comment>Automatically translated using Google</comment>
+  </data>
+  <data name="&gt;&gt;splitContainer1.Panel1.Parent">
+    <value>splitContainer1</value>
+    <comment>Automatically translated using Google</comment>
+  </data>
+  <data name="&gt;&gt;splitContainer1.Panel1.Type">
+    <value>System.Windows.Forms.SplitterPanel、System.Windows.Forms、バージョン= 2.0.0.0、文化= PublicKeyTokenニュートラル= b77a5c561934e089</value>
+    <comment>Automatically translated using Google</comment>
+  </data>
+  <data name="&gt;&gt;splitContainer1.Panel1.ZOrder">
+    <value>0</value>
+    <comment>Automatically translated using Google</comment>
+  </data>
+  <data name="&gt;&gt;splitContainer1.Panel2.Name">
+    <value>splitContainer1.Panel2</value>
+    <comment>Automatically translated using Google</comment>
+  </data>
+  <data name="&gt;&gt;splitContainer1.Panel2.Parent">
+    <value>splitContainer1</value>
+    <comment>Automatically translated using Google</comment>
+  </data>
+  <data name="&gt;&gt;splitContainer1.Panel2.Type">
+    <value>System.Windows.Forms.SplitterPanel、System.Windows.Forms、バージョン= 2.0.0.0、文化= PublicKeyTokenニュートラル= b77a5c561934e089</value>
+    <comment>Automatically translated using Google</comment>
+  </data>
+  <data name="&gt;&gt;splitContainer1.Panel2.ZOrder">
+    <value>1</value>
+    <comment>Automatically translated using Google</comment>
+  </data>
+  <data name="&gt;&gt;splitContainer1.Parent">
+    <value>$この</value>
+    <comment>Automatically translated using Google</comment>
+  </data>
+  <data name="&gt;&gt;splitContainer1.Type">
+    <value>System.Windows.Forms.SplitContainer、System.Windows.Forms、バージョン= 2.0.0.0、文化= PublicKeyTokenニュートラル= b77a5c561934e089</value>
+    <comment>Automatically translated using Google</comment>
+  </data>
+  <data name="&gt;&gt;splitContainer1.ZOrder">
+    <value>7</value>
+    <comment>Automatically translated using Google</comment>
+  </data>
+  <data name="&gt;&gt;sspStatusVersion.Name">
+    <value>sspStatusVersion</value>
+    <comment>Automatically translated using Google</comment>
+  </data>
+  <data name="&gt;&gt;sspStatusVersion.Parent">
+    <value>$この</value>
+    <comment>Automatically translated using Google</comment>
+  </data>
+  <data name="&gt;&gt;sspStatusVersion.Type">
+    <value>System.Windows.Forms.StatusStrip、System.Windows.Forms、バージョン= 2.0.0.0、文化= PublicKeyTokenニュートラル= b77a5c561934e089</value>
+    <comment>Automatically translated using Google</comment>
+  </data>
+  <data name="&gt;&gt;sspStatusVersion.ZOrder">
+    <value>2</value>
+    <comment>Automatically translated using Google</comment>
+  </data>
+  <data name="&gt;&gt;tmrNewVersion.Name">
+    <value>tmrNewVersion</value>
+    <comment>Automatically translated using Google</comment>
+  </data>
+  <data name="&gt;&gt;tmrNewVersion.Type">
+    <value>System.Windows.Forms.Timer、System.Windows.Forms、バージョン= 2.0.0.0、文化= PublicKeyTokenニュートラル= b77a5c561934e089</value>
+    <comment>Automatically translated using Google</comment>
+  </data>
+  <data name="&gt;&gt;txtSearch.Name">
+    <value>txtSearch</value>
+    <comment>Automatically translated using Google</comment>
+  </data>
+  <data name="&gt;&gt;txtSearch.Parent">
+    <value>gbxSearch</value>
+    <comment>Automatically translated using Google</comment>
+  </data>
+  <data name="&gt;&gt;txtSearch.Type">
+    <value>System.Windows.Forms.TextBox、System.Windows.Forms、バージョン= 2.0.0.0、文化= PublicKeyTokenニュートラル= b77a5c561934e089</value>
+    <comment>Automatically translated using Google</comment>
+  </data>
+  <data name="&gt;&gt;txtSearch.ZOrder">
+    <value>0</value>
+    <comment>Automatically translated using Google</comment>
+  </data>
+  <data name="&gt;&gt;wbrDescription.Name">
+    <value>wbrDescription</value>
+    <comment>Automatically translated using Google</comment>
+  </data>
+  <data name="&gt;&gt;wbrDescription.Parent">
+    <value>splitContainer1.Panel2</value>
+    <comment>Automatically translated using Google</comment>
+  </data>
+  <data name="&gt;&gt;wbrDescription.Type">
+    <value>System.Windows.Forms.WebBrowser、System.Windows.Forms、バージョン= 2.0.0.0、文化= PublicKeyTokenニュートラル= b77a5c561934e089</value>
+    <comment>Automatically translated using Google</comment>
+  </data>
+  <data name="&gt;&gt;wbrDescription.ZOrder">
+    <value>0</value>
+    <comment>Automatically translated using Google</comment>
+  </data>
+  <data name="btnCancel.HelpString">
+    <value>変更せずにウィンドウを閉じます</value>
+    <comment>Automatically translated using Google</comment>
+  </data>
+  <data name="btnCancel.Text">
+    <value>キャンセル</value>
+    <comment>Automatically translated using Google</comment>
+  </data>
+  <data name="btnCheck.HelpString">
+    <value>/雲は、すべての強調表示の問題をチェック</value>
+    <comment>Automatically translated using Google</comment>
+  </data>
+  <data name="btnCheck.Text">
+    <value>＆チェック</value>
+    <comment>Automatically translated using Google</comment>
+  </data>
+  <data name="btnDescription.HelpString">
+    <value>表示ウィンドウ現在選択問題の説明を与える</value>
+    <comment>Automatically translated using Google</comment>
+  </data>
+  <data name="btnDescription.Text">
+    <value>と説明</value>
+    <comment>Automatically translated using Google</comment>
+  </data>
+  <data name="btnNext.HelpString">
+    <value>次の強調表示された問題を選択</value>
+    <comment>Automatically translated using Google</comment>
+  </data>
+  <data name="btnNext.Text">
+    <value>＆次の</value>
+    <comment>Automatically translated using Google</comment>
+  </data>
+  <data name="btnOk.HelpString">
+    <value>ウィンドウを閉じると更新コミットメッセージを参照選択問題番号</value>
+    <comment>Automatically translated using Google</comment>
+  </data>
+  <data name="btnOk.Text">
+    <value>＆[OK]を</value>
+    <comment>Automatically translated using Google</comment>
+  </data>
+  <data name="btnOpenRedmine.HelpString">
+    <value>ポップアップ選択問題の記法のウェブページ</value>
+    <comment>Automatically translated using Google</comment>
+  </data>
+  <data name="btnOpenRedmine.Text">
+    <value>＆記法</value>
+    <comment>Automatically translated using Google</comment>
+  </data>
+  <data name="btnTimeEntry.HelpString">
+    <value>選択問題のための記法ウェブサイトタイムエントリページを開きます</value>
+    <comment>Automatically translated using Google</comment>
+  </data>
+  <data name="btnTimeEntry.Text">
+    <value>＆タイムエントリ</value>
+    <comment>Automatically translated using Google</comment>
+  </data>
+  <data name="chkIncludeSummary.HelpString">
+    <value>に含めるの概要テキストがメッセージをコミット</value>
+    <comment>Automatically translated using Google</comment>
+  </data>
+  <data name="chkIncludeSummary.Text">
+    <value>＆インクルードの概要</value>
+    <comment>Automatically translated using Google</comment>
+  </data>
+  <data name="chooseColumnsToDisplayToolStripMenuItem.Text">
+    <value>選択列を表示する</value>
+    <comment>Automatically translated using Google</comment>
+  </data>
+  <data name="gbxSearch.Text">
+    <value>検索</value>
+    <comment>Automatically translated using Google</comment>
+  </data>
+  <data name="lblStatus.Text">
+    <value>ステータス</value>
+    <comment>Automatically translated using Google</comment>
+  </data>
+  <data name="lblUpdateAvailable.ToolTipText">
+    <value>更新バージョンが利用可能</value>
+    <comment>Automatically translated using Google</comment>
+  </data>
+  <data name="lblVersion.Text">
+    <value>バージョン</value>
+    <comment>Automatically translated using Google</comment>
+  </data>
+  <data name="lvwIssueList.HelpString">
+    <value>問題記法リストの列を並べ替えることができ、オプションの詳細をクリックして並べ替えを右</value>
+    <comment>Automatically translated using Google</comment>
+  </data>
+  <data name="resetIssueListDisplayToolStripMenuItem.Text">
+    <value>リセット問題点の一覧表示</value>
+    <comment>Automatically translated using Google</comment>
+  </data>
+  <data name="txtSearch.HelpString">
+    <value>検索の問題に関する</value>
+    <comment>Automatically translated using Google</comment>
+  </data>
+</root>
