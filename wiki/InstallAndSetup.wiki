@@ -65,17 +65,17 @@ http://turtlemine.googlecode.com/svn/trunk/Images/Screenshots/tsvn08.png
 http://turtlemine.googlecode.com/svn/trunk/Images/Screenshots/tsvn09.png
 
   * Here you will be able to select a Redmine issue to include in your commit message.  Some of the functionality is listed below.
-    * A. A basic search box to search within the issues.
-	* B. A drop down list to choose which fields to search on, the default is all fields.
-	* C. A Next button to move the selection through the found results.
-	* D. A Check button to select (check) all highlighted or found issues.
-	* E. The main issue list display window.
-	* F. The Issue Description window (this is hidden by default, See _I_ for details).
-	* G. Opens your default web browser to the page for the selected Redmine issue.
-	* H. Opens your default web browser to the page for Time Entry page for the selected Redmine issue.
-	* I. Toggles the description window visibility.
-	* J. If selected, includes the issue summary text as well as the issue number in your commit message.
-	* K. _Ok_, to add the selected issues to your commit message, otherwise _Cancel_ adding issues.
+    * A) A basic search box to search within the issues.
+    * B) A drop down list to choose which fields to search on, the default is all fields.
+    * C) A Next button to move the selection through the found results.
+    * D) A Check button to select (check) all highlighted or found issues.
+    * E) The main issue list display window.
+    * F) The Issue Description window (this is hidden by default, See _I_ for details).
+    * G) Opens your default web browser to the page for the selected Redmine issue.
+    * H) Opens your default web browser to the page for Time Entry page for the selected Redmine issue.
+    * I) Toggles the description window visibility.
+    * J) If selected, includes the issue summary text as well as the issue number in your commit message.
+    * K) _Ok_, to add the selected issues to your commit message, otherwise _Cancel_ adding issues.
 
   * You can also right click in the main issue list window to bring up display customization options.
 http://turtlemine.googlecode.com/svn/trunk/Images/Screenshots/tsvn10.png
