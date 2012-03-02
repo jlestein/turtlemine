@@ -1,4 +1,4 @@
-#summary Instructions on how to install and setup the plugin for use in Tortoise Svn.
+#summary Instructions on how to install and setup the plugin for use in Tortoise Git.
 #labels Featured,Phase-Deploy
 
 = Installation / Setup =
