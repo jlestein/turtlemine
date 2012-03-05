@@ -28,9 +28,9 @@ http://turtlemine.googlecode.com/svn/trunk/Images/Screenshots/tsvn01.png
 http://turtlemine.googlecode.com/svn/trunk/Images/Screenshots/tsvn02.png
 
 
-  * To _configure Issue Tracker Integration_ for TurtleMine you need to specify three values.
+  * To _configure Issue Tracker Integration_ for !TurtleMine you need to specify three values.
     # Set the _Working Copy Path_ to the local repository location.
-    # Set the _Provider_ to the *TurtleMine* Provider.  (If this is the only provider you have it will most likely be pre-selected).
+    # Set the _Provider_ to the *!TurtleMine* Provider.  (If this is the only provider you have it will most likely be pre-selected).
     # Set the _Parameters_ field to the *ATOM Feed URL* from your Redmine Issues Page for the issues that you wish to be available to include in your commit comments. (See below for more details).
 
 ==== To get the ATOM Feed URL ====
@@ -55,13 +55,13 @@ http://turtlemine.googlecode.com/svn/trunk/Images/Screenshots/tsvn06.png
 http://turtlemine.googlecode.com/svn/trunk/Images/Screenshots/tsvn07.png 
 
 
-=== Using the basic functions of TurtleMine ===
+=== Using the basic functions of !TurtleMine ===
 
   * Bring up the TortoiseSVN commit dialog as you would normally do so.  There will be a new *Redmine Issues* button at the top right of the dialog window.
 http://turtlemine.googlecode.com/svn/trunk/Images/Screenshots/tsvn08.png
  
  
-  * Click the Redmine Issues button to bring up the TurtleMine window.
+  * Click the Redmine Issues button to bring up the !TurtleMine window.
 http://turtlemine.googlecode.com/svn/trunk/Images/Screenshots/tsvn09.png
 
   * Here you will be able to select a Redmine issue to include in your commit message.  Some of the functionality is listed below.
