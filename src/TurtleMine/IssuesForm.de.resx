@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="chooseColumnsToDisplayToolStripMenuItem.Text" xml:space="preserve">
+    <value>Wähle anzuzeigende Spalten</value>
+  </data>
+  <data name="resetIssueListDisplayToolStripMenuItem.Text" xml:space="preserve">
+    <value>Setze Listenanzeige zurück</value>
+  </data>
+  <data name="lvwIssueList.HelpString" xml:space="preserve">
+    <value>Liste der Redmine-Tickets
+Spalten können sortiert und anders angeordnet werden
+Rechte Maustaste für weitere Optionen
+</value>
+  </data>
+  <data name="chkIncludeSummary.HelpString" xml:space="preserve">
+    <value>Füge den Meldungstext in die Commit-Meldung ein</value>
+  </data>
+  <data name="chkIncludeSummary.Text" xml:space="preserve">
+    <value>&amp;Füge Meldungstitel ein</value>
+  </data>
+  <data name="btnOk.HelpString" xml:space="preserve">
+    <value>Schließe das Fenster und ergänze Referenzen auf alle ausgewählten Tickets in der Commit-Meldung</value>
+  </data>
+  <data name="btnCancel.HelpString" xml:space="preserve">
+    <value>Schlie�e das Fenster ohne �nderungen</value>
+  </data>
+  <data name="btnCancel.Text" xml:space="preserve">
+    <value>&amp;Abbrechen</value>
+  </data>
+  <data name="btnNext.HelpString" xml:space="preserve">
+    <value>Springe zum nächsten hervorgehobenen Ticket</value>
+  </data>
+  <data name="btnNext.Text" xml:space="preserve">
+    <value>&amp;Weiter</value>
+  </data>
+  <data name="txtSearch.HelpString" xml:space="preserve">
+    <value>Suche nach Tickets</value>
+  </data>
+  <data name="cboFields.HelpString" xml:space="preserve">
+    <value>Wähle eine Spalte, in der gesucht wird</value>
+  </data>
+  <data name="btnCheck.HelpString" xml:space="preserve">
+    <value>Setze / lösche Markierung für alle hervorgehobenen Tickets</value>
+  </data>
+  <data name="btnCheck.Text" xml:space="preserve">
+    <value>&amp;Markieren</value>
+  </data>
+  <data name="gbxSearch.Text" xml:space="preserve">
+    <value>Suchen</value>
+  </data>
+  <data name="lblUpdateAvailable.ToolTipText" xml:space="preserve">
+    <value>Neue Version verfügbar</value>
+  </data>
+  <data name="btnTimeEntry.HelpString" xml:space="preserve">
+    <value>Öffne im Redmine den Zeiteintrag für das ausgewählte Ticket</value>
+  </data>
+  <data name="btnTimeEntry.Text" xml:space="preserve">
+    <value>&amp;Zeiteintrag</value>
+  </data>
+  <data name="btnOpenRedmine.HelpString" xml:space="preserve">
+    <value>Öffne die Redmine-Seite des ausgewählten Tickets</value>
+  </data>
+  <data name="btnDescription.HelpString" xml:space="preserve">
+    <value>Zeige den Beschreibungstext des ausgewählten Tickets in einem Fenster an</value>
+  </data>
+  <data name="btnDescription.Text" xml:space="preserve">
+    <value>&amp;Beschreibung</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Redmine-Tickets</value>
+  </data>
+  <data name="lblStatus.Text" xml:space="preserve">
+    <value>Status </value>
+  </data>
+  <data name="btnOpenRedmine.Text" xml:space="preserve">
+    <value>&amp;Redmine</value>
+  </data>
+  <data name="btnOk.Text" xml:space="preserve">
+    <value>&amp;OK</value>
+  </data>
+  <data name="lblVersion.Text" xml:space="preserve">
+    <value>Version</value>
+  </data>
+</root>

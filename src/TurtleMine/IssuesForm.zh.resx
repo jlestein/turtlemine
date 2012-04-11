@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="chooseColumnsToDisplayToolStripMenuItem.Text" xml:space="preserve">
+    <value>Choose Columns to Display</value>
+  </data>
+  <data name="resetIssueListDisplayToolStripMenuItem.Text" xml:space="preserve">
+    <value>Reset Issue List Display</value>
+  </data>
+  <data name="lvwIssueList.HelpString" xml:space="preserve">
+    <value>List of Redmine issues
+Columns can be sorted and rearranged
+Right click for more options</value>
+  </data>
+  <data name="chkIncludeSummary.HelpString" xml:space="preserve">
+    <value>Include Summary text in commit message</value>
+  </data>
+  <data name="chkIncludeSummary.Text" xml:space="preserve">
+    <value>&amp;Include Summary</value>
+  </data>
+  <data name="btnOk.HelpString" xml:space="preserve">
+    <value>Close the window and updates the commit message referencing the selected Issue numbers</value>
+  </data>
+  <data name="btnOk.Text" xml:space="preserve">
+    <value>&amp;OK</value>
+  </data>
+  <data name="btnCancel.HelpString" xml:space="preserve">
+    <value>Closes the window without changes</value>
+  </data>
+  <data name="btnCancel.Text" xml:space="preserve">
+    <value>&amp;Cancel</value>
+  </data>
+  <data name="btnNext.HelpString" xml:space="preserve">
+    <value>Selects the next highlighted issue</value>
+  </data>
+  <data name="btnNext.Text" xml:space="preserve">
+    <value>&amp;Next</value>
+  </data>
+  <data name="txtSearch.HelpString" xml:space="preserve">
+    <value>Search for Issues</value>
+  </data>
+  <data name="cboFields.HelpString" xml:space="preserve">
+    <value>Choose a field to search on</value>
+  </data>
+  <data name="btnCheck.HelpString" xml:space="preserve">
+    <value>Check / Un-check all highlighted issues</value>
+  </data>
+  <data name="btnCheck.Text" xml:space="preserve">
+    <value>&amp;Check</value>
+  </data>
+  <data name="gbxSearch.Text" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="lblStatus.Text" xml:space="preserve">
+    <value>Status </value>
+  </data>
+  <data name="lblVersion.Text" xml:space="preserve">
+    <value>Version</value>
+  </data>
+  <data name="lblUpdateAvailable.ToolTipText" xml:space="preserve">
+    <value>New Version Available</value>
+  </data>
+  <data name="btnTimeEntry.HelpString" xml:space="preserve">
+    <value>Open the Redmine Website Time Entry page for the selected Issue</value>
+  </data>
+  <data name="btnTimeEntry.Text" xml:space="preserve">
+    <value>&amp;Time Entry</value>
+  </data>
+  <data name="btnOpenRedmine.HelpString" xml:space="preserve">
+    <value>Opens the Redmine webpage for the selected issue</value>
+  </data>
+  <data name="btnOpenRedmine.Text" xml:space="preserve">
+    <value>&amp;Redmine</value>
+  </data>
+  <data name="btnDescription.HelpString" xml:space="preserve">
+    <value>Displays a window giving a description of the current selected issue</value>
+  </data>
+  <data name="btnDescription.Text" xml:space="preserve">
+    <value>&amp;Description</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Redmine Issues</value>
+  </data>
+</root>

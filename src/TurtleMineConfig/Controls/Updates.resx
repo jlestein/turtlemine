@@ -1,0 +1,603 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="rdoCheckEveryStartup.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="rdoCheckEveryStartup.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="rdoCheckEveryStartup.Location" type="System.Drawing.Point, System.Drawing">
+    <value>265, 79</value>
+  </data>
+  <data name="rdoCheckEveryStartup.Size" type="System.Drawing.Size, System.Drawing">
+    <value>123, 17</value>
+  </data>
+  <data name="rdoCheckEveryStartup.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="rdoCheckEveryStartup.Text" xml:space="preserve">
+    <value>Check Every Startup</value>
+  </data>
+  <data name="&gt;&gt;rdoCheckEveryStartup.Name" xml:space="preserve">
+    <value>rdoCheckEveryStartup</value>
+  </data>
+  <data name="&gt;&gt;rdoCheckEveryStartup.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rdoCheckEveryStartup.Parent" xml:space="preserve">
+    <value>grpSchedule</value>
+  </data>
+  <data name="&gt;&gt;rdoCheckEveryStartup.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="rdoCheckDaily.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="rdoCheckDaily.Location" type="System.Drawing.Point, System.Drawing">
+    <value>106, 79</value>
+  </data>
+  <data name="rdoCheckDaily.Size" type="System.Drawing.Size, System.Drawing">
+    <value>82, 17</value>
+  </data>
+  <data name="rdoCheckDaily.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="rdoCheckDaily.Text" xml:space="preserve">
+    <value>Check Daily</value>
+  </data>
+  <data name="&gt;&gt;rdoCheckDaily.Name" xml:space="preserve">
+    <value>rdoCheckDaily</value>
+  </data>
+  <data name="&gt;&gt;rdoCheckDaily.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rdoCheckDaily.Parent" xml:space="preserve">
+    <value>grpSchedule</value>
+  </data>
+  <data name="&gt;&gt;rdoCheckDaily.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="rdoCheckWeekly.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="rdoCheckWeekly.Location" type="System.Drawing.Point, System.Drawing">
+    <value>265, 44</value>
+  </data>
+  <data name="rdoCheckWeekly.Size" type="System.Drawing.Size, System.Drawing">
+    <value>95, 17</value>
+  </data>
+  <data name="rdoCheckWeekly.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="rdoCheckWeekly.Text" xml:space="preserve">
+    <value>Check Weekly</value>
+  </data>
+  <data name="&gt;&gt;rdoCheckWeekly.Name" xml:space="preserve">
+    <value>rdoCheckWeekly</value>
+  </data>
+  <data name="&gt;&gt;rdoCheckWeekly.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rdoCheckWeekly.Parent" xml:space="preserve">
+    <value>grpSchedule</value>
+  </data>
+  <data name="&gt;&gt;rdoCheckWeekly.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="rdoCheckNoAuto.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="rdoCheckNoAuto.Location" type="System.Drawing.Point, System.Drawing">
+    <value>106, 44</value>
+  </data>
+  <data name="rdoCheckNoAuto.Size" type="System.Drawing.Size, System.Drawing">
+    <value>98, 17</value>
+  </data>
+  <data name="rdoCheckNoAuto.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="rdoCheckNoAuto.Text" xml:space="preserve">
+    <value>No Auto Check</value>
+  </data>
+  <data name="&gt;&gt;rdoCheckNoAuto.Name" xml:space="preserve">
+    <value>rdoCheckNoAuto</value>
+  </data>
+  <data name="&gt;&gt;rdoCheckNoAuto.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rdoCheckNoAuto.Parent" xml:space="preserve">
+    <value>grpSchedule</value>
+  </data>
+  <data name="&gt;&gt;rdoCheckNoAuto.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="grpSchedule.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 202</value>
+  </data>
+  <data name="grpSchedule.Size" type="System.Drawing.Size, System.Drawing">
+    <value>490, 185</value>
+  </data>
+  <data name="grpSchedule.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="grpSchedule.Text" xml:space="preserve">
+    <value>Auto Update Check Settings</value>
+  </data>
+  <data name="&gt;&gt;grpSchedule.Name" xml:space="preserve">
+    <value>grpSchedule</value>
+  </data>
+  <data name="&gt;&gt;grpSchedule.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;grpSchedule.Parent" xml:space="preserve">
+    <value>pnlSettings</value>
+  </data>
+  <data name="&gt;&gt;grpSchedule.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="txtCheckFailed.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtCheckFailed.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt</value>
+  </data>
+  <data name="txtCheckFailed.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="txtCheckFailed.Location" type="System.Drawing.Point, System.Drawing">
+    <value>31, 57</value>
+  </data>
+  <data name="txtCheckFailed.Size" type="System.Drawing.Size, System.Drawing">
+    <value>0, 15</value>
+  </data>
+  <data name="txtCheckFailed.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;txtCheckFailed.Name" xml:space="preserve">
+    <value>txtCheckFailed</value>
+  </data>
+  <data name="&gt;&gt;txtCheckFailed.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtCheckFailed.Parent" xml:space="preserve">
+    <value>grpLatestVersion</value>
+  </data>
+  <data name="&gt;&gt;txtCheckFailed.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lnkChangeList.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lnkChangeList.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt</value>
+  </data>
+  <data name="lnkChangeList.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lnkChangeList.Location" type="System.Drawing.Point, System.Drawing">
+    <value>263, 59</value>
+  </data>
+  <data name="lnkChangeList.Size" type="System.Drawing.Size, System.Drawing">
+    <value>99, 16</value>
+  </data>
+  <data name="lnkChangeList.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="lnkChangeList.Text" xml:space="preserve">
+    <value>Release Notes</value>
+  </data>
+  <data name="&gt;&gt;lnkChangeList.Name" xml:space="preserve">
+    <value>lnkChangeList</value>
+  </data>
+  <data name="&gt;&gt;lnkChangeList.Type" xml:space="preserve">
+    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lnkChangeList.Parent" xml:space="preserve">
+    <value>grpLatestVersion</value>
+  </data>
+  <data name="&gt;&gt;lnkChangeList.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lblLatestVersionTitle.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblLatestVersionTitle.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 11.25pt, style=Bold</value>
+  </data>
+  <data name="lblLatestVersionTitle.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblLatestVersionTitle.Location" type="System.Drawing.Point, System.Drawing">
+    <value>113, 25</value>
+  </data>
+  <data name="lblLatestVersionTitle.Size" type="System.Drawing.Size, System.Drawing">
+    <value>116, 18</value>
+  </data>
+  <data name="lblLatestVersionTitle.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lblLatestVersionTitle.Text" xml:space="preserve">
+    <value>Latest Version</value>
+  </data>
+  <data name="&gt;&gt;lblLatestVersionTitle.Name" xml:space="preserve">
+    <value>lblLatestVersionTitle</value>
+  </data>
+  <data name="&gt;&gt;lblLatestVersionTitle.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblLatestVersionTitle.Parent" xml:space="preserve">
+    <value>grpLatestVersion</value>
+  </data>
+  <data name="&gt;&gt;lblLatestVersionTitle.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="lnkLatestVersion.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lnkLatestVersion.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 11.25pt</value>
+  </data>
+  <data name="lnkLatestVersion.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lnkLatestVersion.Location" type="System.Drawing.Point, System.Drawing">
+    <value>263, 25</value>
+  </data>
+  <data name="lnkLatestVersion.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 18</value>
+  </data>
+  <data name="lnkLatestVersion.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="lnkLatestVersion.Text" xml:space="preserve">
+    <value>1.1.0.2</value>
+  </data>
+  <data name="&gt;&gt;lnkLatestVersion.Name" xml:space="preserve">
+    <value>lnkLatestVersion</value>
+  </data>
+  <data name="&gt;&gt;lnkLatestVersion.Type" xml:space="preserve">
+    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lnkLatestVersion.Parent" xml:space="preserve">
+    <value>grpLatestVersion</value>
+  </data>
+  <data name="&gt;&gt;lnkLatestVersion.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="grpLatestVersion.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 81</value>
+  </data>
+  <data name="grpLatestVersion.Size" type="System.Drawing.Size, System.Drawing">
+    <value>490, 115</value>
+  </data>
+  <data name="grpLatestVersion.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;grpLatestVersion.Name" xml:space="preserve">
+    <value>grpLatestVersion</value>
+  </data>
+  <data name="&gt;&gt;grpLatestVersion.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;grpLatestVersion.Parent" xml:space="preserve">
+    <value>pnlSettings</value>
+  </data>
+  <data name="&gt;&gt;grpLatestVersion.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="btnCheckForUpdates.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="btnCheckForUpdates.Location" type="System.Drawing.Point, System.Drawing">
+    <value>119, 52</value>
+  </data>
+  <data name="btnCheckForUpdates.Size" type="System.Drawing.Size, System.Drawing">
+    <value>149, 23</value>
+  </data>
+  <data name="btnCheckForUpdates.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="btnCheckForUpdates.Text" xml:space="preserve">
+    <value>Check For Updates</value>
+  </data>
+  <data name="&gt;&gt;btnCheckForUpdates.Name" xml:space="preserve">
+    <value>btnCheckForUpdates</value>
+  </data>
+  <data name="&gt;&gt;btnCheckForUpdates.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnCheckForUpdates.Parent" xml:space="preserve">
+    <value>pnlSettings</value>
+  </data>
+  <data name="&gt;&gt;btnCheckForUpdates.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="pictureBox1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="pictureBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 11</value>
+  </data>
+  <data name="pictureBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>64, 64</value>
+  </data>
+  <data name="pictureBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.Name" xml:space="preserve">
+    <value>pictureBox1</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.Parent" xml:space="preserve">
+    <value>pnlSettings</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="lblCurrentVersionNumber.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblCurrentVersionNumber.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 11.25pt</value>
+  </data>
+  <data name="lblCurrentVersionNumber.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblCurrentVersionNumber.Location" type="System.Drawing.Point, System.Drawing">
+    <value>275, 11</value>
+  </data>
+  <data name="lblCurrentVersionNumber.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 18</value>
+  </data>
+  <data name="lblCurrentVersionNumber.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="lblCurrentVersionNumber.Text" xml:space="preserve">
+    <value>1.1.0.2</value>
+  </data>
+  <data name="&gt;&gt;lblCurrentVersionNumber.Name" xml:space="preserve">
+    <value>lblCurrentVersionNumber</value>
+  </data>
+  <data name="&gt;&gt;lblCurrentVersionNumber.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblCurrentVersionNumber.Parent" xml:space="preserve">
+    <value>pnlSettings</value>
+  </data>
+  <data name="&gt;&gt;lblCurrentVersionNumber.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="lblCurrentVersionTitle.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblCurrentVersionTitle.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 11.25pt, style=Bold</value>
+  </data>
+  <data name="lblCurrentVersionTitle.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblCurrentVersionTitle.Location" type="System.Drawing.Point, System.Drawing">
+    <value>116, 11</value>
+  </data>
+  <data name="lblCurrentVersionTitle.Size" type="System.Drawing.Size, System.Drawing">
+    <value>126, 18</value>
+  </data>
+  <data name="lblCurrentVersionTitle.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lblCurrentVersionTitle.Text" xml:space="preserve">
+    <value>Current Version</value>
+  </data>
+  <data name="&gt;&gt;lblCurrentVersionTitle.Name" xml:space="preserve">
+    <value>lblCurrentVersionTitle</value>
+  </data>
+  <data name="&gt;&gt;lblCurrentVersionTitle.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblCurrentVersionTitle.Parent" xml:space="preserve">
+    <value>pnlSettings</value>
+  </data>
+  <data name="&gt;&gt;lblCurrentVersionTitle.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;pnlSettings.Name" xml:space="preserve">
+    <value>pnlSettings</value>
+  </data>
+  <data name="&gt;&gt;pnlSettings.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pnlSettings.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;pnlSettings.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="rdoCustomSettings.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;rdoCustomSettings.Name" xml:space="preserve">
+    <value>rdoCustomSettings</value>
+  </data>
+  <data name="&gt;&gt;rdoCustomSettings.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rdoCustomSettings.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;rdoCustomSettings.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lblHeading.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="lblHeading.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt, style=Bold</value>
+  </data>
+  <data name="lblHeading.Size" type="System.Drawing.Size, System.Drawing">
+    <value>146, 17</value>
+  </data>
+  <data name="lblHeading.Text" xml:space="preserve">
+    <value>Check For Updates</value>
+  </data>
+  <data name="&gt;&gt;lblHeading.Name" xml:space="preserve">
+    <value>lblHeading</value>
+  </data>
+  <data name="&gt;&gt;lblHeading.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblHeading.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblHeading.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="rdoGlobalSettings.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;rdoGlobalSettings.Name" xml:space="preserve">
+    <value>rdoGlobalSettings</value>
+  </data>
+  <data name="&gt;&gt;rdoGlobalSettings.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rdoGlobalSettings.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;rdoGlobalSettings.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>Updates</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>TurtleMine.Controls.Template, TurtleMineConfig, Version=1.2.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+</root>
