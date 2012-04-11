@@ -1,0 +1,813 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="btnSSLPath.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="btnSSLPath.Location" type="System.Drawing.Point, System.Drawing">
+    <value>432, 22</value>
+  </data>
+  <data name="btnSSLPath.Size" type="System.Drawing.Size, System.Drawing">
+    <value>35, 23</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="btnSSLPath.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;btnSSLPath.Name" xml:space="preserve">
+    <value>btnSSLPath</value>
+  </data>
+  <data name="&gt;&gt;btnSSLPath.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnSSLPath.Parent" xml:space="preserve">
+    <value>grpSSL</value>
+  </data>
+  <data name="&gt;&gt;btnSSLPath.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="txtSSLPath.Location" type="System.Drawing.Point, System.Drawing">
+    <value>145, 24</value>
+  </data>
+  <data name="txtSSLPath.Size" type="System.Drawing.Size, System.Drawing">
+    <value>281, 20</value>
+  </data>
+  <data name="txtSSLPath.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;txtSSLPath.Name" xml:space="preserve">
+    <value>txtSSLPath</value>
+  </data>
+  <data name="&gt;&gt;txtSSLPath.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtSSLPath.Parent" xml:space="preserve">
+    <value>grpSSL</value>
+  </data>
+  <data name="&gt;&gt;txtSSLPath.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lblSSLPath.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblSSLPath.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblSSLPath.Location" type="System.Drawing.Point, System.Drawing">
+    <value>18, 27</value>
+  </data>
+  <data name="lblSSLPath.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 13</value>
+  </data>
+  <data name="lblSSLPath.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lblSSLPath.Text" xml:space="preserve">
+    <value>SS&amp;L Certificate Path</value>
+  </data>
+  <data name="&gt;&gt;lblSSLPath.Name" xml:space="preserve">
+    <value>lblSSLPath</value>
+  </data>
+  <data name="&gt;&gt;lblSSLPath.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblSSLPath.Parent" xml:space="preserve">
+    <value>grpSSL</value>
+  </data>
+  <data name="&gt;&gt;lblSSLPath.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="grpSSL.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 325</value>
+  </data>
+  <data name="grpSSL.Size" type="System.Drawing.Size, System.Drawing">
+    <value>490, 61</value>
+  </data>
+  <data name="grpSSL.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="grpSSL.Text" xml:space="preserve">
+    <value>SSL Certificate</value>
+  </data>
+  <data name="&gt;&gt;grpSSL.Name" xml:space="preserve">
+    <value>grpSSL</value>
+  </data>
+  <data name="&gt;&gt;grpSSL.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;grpSSL.Parent" xml:space="preserve">
+    <value>pnlSettings</value>
+  </data>
+  <data name="&gt;&gt;grpSSL.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="rdoAuthProvidedCredentials.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="rdoAuthProvidedCredentials.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="rdoAuthProvidedCredentials.Location" type="System.Drawing.Point, System.Drawing">
+    <value>63, 52</value>
+  </data>
+  <data name="rdoAuthProvidedCredentials.Size" type="System.Drawing.Size, System.Drawing">
+    <value>212, 17</value>
+  </data>
+  <data name="rdoAuthProvidedCredentials.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="rdoAuthProvidedCredentials.Text" xml:space="preserve">
+    <value>Authenticate using &amp;Provided credentials</value>
+  </data>
+  <data name="&gt;&gt;rdoAuthProvidedCredentials.Name" xml:space="preserve">
+    <value>rdoAuthProvidedCredentials</value>
+  </data>
+  <data name="&gt;&gt;rdoAuthProvidedCredentials.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rdoAuthProvidedCredentials.Parent" xml:space="preserve">
+    <value>grpAuthentication</value>
+  </data>
+  <data name="&gt;&gt;rdoAuthProvidedCredentials.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="rdoAuthCurrentUser.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="rdoAuthCurrentUser.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="rdoAuthCurrentUser.Location" type="System.Drawing.Point, System.Drawing">
+    <value>63, 22</value>
+  </data>
+  <data name="rdoAuthCurrentUser.Size" type="System.Drawing.Size, System.Drawing">
+    <value>259, 17</value>
+  </data>
+  <data name="rdoAuthCurrentUser.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="rdoAuthCurrentUser.Text" xml:space="preserve">
+    <value>Authenticate using &amp;Current windows user account</value>
+  </data>
+  <data name="&gt;&gt;rdoAuthCurrentUser.Name" xml:space="preserve">
+    <value>rdoAuthCurrentUser</value>
+  </data>
+  <data name="&gt;&gt;rdoAuthCurrentUser.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rdoAuthCurrentUser.Parent" xml:space="preserve">
+    <value>grpAuthentication</value>
+  </data>
+  <data name="&gt;&gt;rdoAuthCurrentUser.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="btnShow.Location" type="System.Drawing.Point, System.Drawing">
+    <value>297, 34</value>
+  </data>
+  <data name="btnShow.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 23</value>
+  </data>
+  <data name="btnShow.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="btnShow.Text" xml:space="preserve">
+    <value>S&amp;how</value>
+  </data>
+  <data name="&gt;&gt;btnShow.Name" xml:space="preserve">
+    <value>btnShow</value>
+  </data>
+  <data name="&gt;&gt;btnShow.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnShow.Parent" xml:space="preserve">
+    <value>pnlProvideAuth</value>
+  </data>
+  <data name="&gt;&gt;btnShow.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lblUsername.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblUsername.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblUsername.Location" type="System.Drawing.Point, System.Drawing">
+    <value>39, 11</value>
+  </data>
+  <data name="lblUsername.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 13</value>
+  </data>
+  <data name="lblUsername.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lblUsername.Text" xml:space="preserve">
+    <value>&amp;User Name</value>
+  </data>
+  <data name="&gt;&gt;lblUsername.Name" xml:space="preserve">
+    <value>lblUsername</value>
+  </data>
+  <data name="&gt;&gt;lblUsername.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblUsername.Parent" xml:space="preserve">
+    <value>pnlProvideAuth</value>
+  </data>
+  <data name="&gt;&gt;lblUsername.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="txtPassword.Location" type="System.Drawing.Point, System.Drawing">
+    <value>111, 36</value>
+  </data>
+  <data name="txtPassword.PasswordChar" type="System.Char, mscorlib" xml:space="preserve">
+    <value>*</value>
+  </data>
+  <data name="txtPassword.Size" type="System.Drawing.Size, System.Drawing">
+    <value>176, 20</value>
+  </data>
+  <data name="txtPassword.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;txtPassword.Name" xml:space="preserve">
+    <value>txtPassword</value>
+  </data>
+  <data name="&gt;&gt;txtPassword.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtPassword.Parent" xml:space="preserve">
+    <value>pnlProvideAuth</value>
+  </data>
+  <data name="&gt;&gt;txtPassword.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="txtUserName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>111, 8</value>
+  </data>
+  <data name="txtUserName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>176, 20</value>
+  </data>
+  <data name="txtUserName.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;txtUserName.Name" xml:space="preserve">
+    <value>txtUserName</value>
+  </data>
+  <data name="&gt;&gt;txtUserName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtUserName.Parent" xml:space="preserve">
+    <value>pnlProvideAuth</value>
+  </data>
+  <data name="&gt;&gt;txtUserName.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="lblPassword.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblPassword.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblPassword.Location" type="System.Drawing.Point, System.Drawing">
+    <value>46, 39</value>
+  </data>
+  <data name="lblPassword.Size" type="System.Drawing.Size, System.Drawing">
+    <value>53, 13</value>
+  </data>
+  <data name="lblPassword.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="lblPassword.Text" xml:space="preserve">
+    <value>P&amp;assword</value>
+  </data>
+  <data name="&gt;&gt;lblPassword.Name" xml:space="preserve">
+    <value>lblPassword</value>
+  </data>
+  <data name="&gt;&gt;lblPassword.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblPassword.Parent" xml:space="preserve">
+    <value>pnlProvideAuth</value>
+  </data>
+  <data name="&gt;&gt;lblPassword.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="pnlProvideAuth.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="pnlProvideAuth.Location" type="System.Drawing.Point, System.Drawing">
+    <value>40, 69</value>
+  </data>
+  <data name="pnlProvideAuth.Size" type="System.Drawing.Size, System.Drawing">
+    <value>386, 61</value>
+  </data>
+  <data name="pnlProvideAuth.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;pnlProvideAuth.Name" xml:space="preserve">
+    <value>pnlProvideAuth</value>
+  </data>
+  <data name="&gt;&gt;pnlProvideAuth.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pnlProvideAuth.Parent" xml:space="preserve">
+    <value>grpAuthentication</value>
+  </data>
+  <data name="&gt;&gt;pnlProvideAuth.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="grpAuthentication.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 182</value>
+  </data>
+  <data name="grpAuthentication.Size" type="System.Drawing.Size, System.Drawing">
+    <value>490, 137</value>
+  </data>
+  <data name="grpAuthentication.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="grpAuthentication.Text" xml:space="preserve">
+    <value>Authentication</value>
+  </data>
+  <data name="&gt;&gt;grpAuthentication.Name" xml:space="preserve">
+    <value>grpAuthentication</value>
+  </data>
+  <data name="&gt;&gt;grpAuthentication.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;grpAuthentication.Parent" xml:space="preserve">
+    <value>pnlSettings</value>
+  </data>
+  <data name="&gt;&gt;grpAuthentication.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="chkBypassProxy.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chkBypassProxy.Location" type="System.Drawing.Point, System.Drawing">
+    <value>69, 36</value>
+  </data>
+  <data name="chkBypassProxy.Size" type="System.Drawing.Size, System.Drawing">
+    <value>211, 17</value>
+  </data>
+  <data name="chkBypassProxy.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="chkBypassProxy.Text" xml:space="preserve">
+    <value>&amp;Bypass proxy server for local addresses</value>
+  </data>
+  <data name="&gt;&gt;chkBypassProxy.Name" xml:space="preserve">
+    <value>chkBypassProxy</value>
+  </data>
+  <data name="&gt;&gt;chkBypassProxy.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkBypassProxy.Parent" xml:space="preserve">
+    <value>pnlManual</value>
+  </data>
+  <data name="&gt;&gt;chkBypassProxy.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="nudPort.Location" type="System.Drawing.Point, System.Drawing">
+    <value>228, 11</value>
+  </data>
+  <data name="nudPort.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 20</value>
+  </data>
+  <data name="nudPort.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;nudPort.Name" xml:space="preserve">
+    <value>nudPort</value>
+  </data>
+  <data name="&gt;&gt;nudPort.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;nudPort.Parent" xml:space="preserve">
+    <value>pnlManual</value>
+  </data>
+  <data name="&gt;&gt;nudPort.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lblPort.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblPort.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblPort.Location" type="System.Drawing.Point, System.Drawing">
+    <value>196, 13</value>
+  </data>
+  <data name="lblPort.Size" type="System.Drawing.Size, System.Drawing">
+    <value>26, 13</value>
+  </data>
+  <data name="lblPort.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="lblPort.Text" xml:space="preserve">
+    <value>Por&amp;t</value>
+  </data>
+  <data name="&gt;&gt;lblPort.Name" xml:space="preserve">
+    <value>lblPort</value>
+  </data>
+  <data name="&gt;&gt;lblPort.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblPort.Parent" xml:space="preserve">
+    <value>pnlManual</value>
+  </data>
+  <data name="&gt;&gt;lblPort.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="txtAddress.Location" type="System.Drawing.Point, System.Drawing">
+    <value>67, 10</value>
+  </data>
+  <data name="txtAddress.Size" type="System.Drawing.Size, System.Drawing">
+    <value>114, 20</value>
+  </data>
+  <data name="txtAddress.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;txtAddress.Name" xml:space="preserve">
+    <value>txtAddress</value>
+  </data>
+  <data name="&gt;&gt;txtAddress.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtAddress.Parent" xml:space="preserve">
+    <value>pnlManual</value>
+  </data>
+  <data name="&gt;&gt;txtAddress.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="lblAddress.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblAddress.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblAddress.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 13</value>
+  </data>
+  <data name="lblAddress.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 13</value>
+  </data>
+  <data name="lblAddress.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lblAddress.Text" xml:space="preserve">
+    <value>Addr&amp;ess</value>
+  </data>
+  <data name="&gt;&gt;lblAddress.Name" xml:space="preserve">
+    <value>lblAddress</value>
+  </data>
+  <data name="&gt;&gt;lblAddress.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblAddress.Parent" xml:space="preserve">
+    <value>pnlManual</value>
+  </data>
+  <data name="&gt;&gt;lblAddress.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="pnlManual.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="pnlManual.Location" type="System.Drawing.Point, System.Drawing">
+    <value>63, 99</value>
+  </data>
+  <data name="pnlManual.Size" type="System.Drawing.Size, System.Drawing">
+    <value>306, 58</value>
+  </data>
+  <data name="pnlManual.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;pnlManual.Name" xml:space="preserve">
+    <value>pnlManual</value>
+  </data>
+  <data name="&gt;&gt;pnlManual.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pnlManual.Parent" xml:space="preserve">
+    <value>grpProxy</value>
+  </data>
+  <data name="&gt;&gt;pnlManual.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btnInternetOptions.Location" type="System.Drawing.Point, System.Drawing">
+    <value>240, 51</value>
+  </data>
+  <data name="btnInternetOptions.Size" type="System.Drawing.Size, System.Drawing">
+    <value>111, 23</value>
+  </data>
+  <data name="btnInternetOptions.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="btnInternetOptions.Text" xml:space="preserve">
+    <value>&amp;Internet Options</value>
+  </data>
+  <data name="&gt;&gt;btnInternetOptions.Name" xml:space="preserve">
+    <value>btnInternetOptions</value>
+  </data>
+  <data name="&gt;&gt;btnInternetOptions.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnInternetOptions.Parent" xml:space="preserve">
+    <value>grpProxy</value>
+  </data>
+  <data name="&gt;&gt;btnInternetOptions.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="rdoManualProxy.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="rdoManualProxy.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="rdoManualProxy.Location" type="System.Drawing.Point, System.Drawing">
+    <value>63, 83</value>
+  </data>
+  <data name="rdoManualProxy.Size" type="System.Drawing.Size, System.Drawing">
+    <value>130, 17</value>
+  </data>
+  <data name="rdoManualProxy.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="rdoManualProxy.Text" xml:space="preserve">
+    <value>&amp;Manual Proxy Settings</value>
+  </data>
+  <data name="&gt;&gt;rdoManualProxy.Name" xml:space="preserve">
+    <value>rdoManualProxy</value>
+  </data>
+  <data name="&gt;&gt;rdoManualProxy.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rdoManualProxy.Parent" xml:space="preserve">
+    <value>grpProxy</value>
+  </data>
+  <data name="&gt;&gt;rdoManualProxy.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="rdoWindowsProxy.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="rdoWindowsProxy.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="rdoWindowsProxy.Location" type="System.Drawing.Point, System.Drawing">
+    <value>63, 54</value>
+  </data>
+  <data name="rdoWindowsProxy.Size" type="System.Drawing.Size, System.Drawing">
+    <value>139, 17</value>
+  </data>
+  <data name="rdoWindowsProxy.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="rdoWindowsProxy.Text" xml:space="preserve">
+    <value>&amp;Windows Proxy Settings</value>
+  </data>
+  <data name="&gt;&gt;rdoWindowsProxy.Name" xml:space="preserve">
+    <value>rdoWindowsProxy</value>
+  </data>
+  <data name="&gt;&gt;rdoWindowsProxy.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rdoWindowsProxy.Parent" xml:space="preserve">
+    <value>grpProxy</value>
+  </data>
+  <data name="&gt;&gt;rdoWindowsProxy.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="rdoNoProxy.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="rdoNoProxy.Location" type="System.Drawing.Point, System.Drawing">
+    <value>63, 25</value>
+  </data>
+  <data name="rdoNoProxy.Size" type="System.Drawing.Size, System.Drawing">
+    <value>68, 17</value>
+  </data>
+  <data name="rdoNoProxy.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="rdoNoProxy.Text" xml:space="preserve">
+    <value>&amp;No Proxy</value>
+  </data>
+  <data name="&gt;&gt;rdoNoProxy.Name" xml:space="preserve">
+    <value>rdoNoProxy</value>
+  </data>
+  <data name="&gt;&gt;rdoNoProxy.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rdoNoProxy.Parent" xml:space="preserve">
+    <value>grpProxy</value>
+  </data>
+  <data name="&gt;&gt;rdoNoProxy.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="grpProxy.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 11</value>
+  </data>
+  <data name="grpProxy.Size" type="System.Drawing.Size, System.Drawing">
+    <value>490, 165</value>
+  </data>
+  <data name="grpProxy.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="grpProxy.Text" xml:space="preserve">
+    <value>Proxy Settings</value>
+  </data>
+  <data name="&gt;&gt;grpProxy.Name" xml:space="preserve">
+    <value>grpProxy</value>
+  </data>
+  <data name="&gt;&gt;grpProxy.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;grpProxy.Parent" xml:space="preserve">
+    <value>pnlSettings</value>
+  </data>
+  <data name="&gt;&gt;grpProxy.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;pnlSettings.Name" xml:space="preserve">
+    <value>pnlSettings</value>
+  </data>
+  <data name="&gt;&gt;pnlSettings.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pnlSettings.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;pnlSettings.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;rdoCustomSettings.Name" xml:space="preserve">
+    <value>rdoCustomSettings</value>
+  </data>
+  <data name="&gt;&gt;rdoCustomSettings.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rdoCustomSettings.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;rdoCustomSettings.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lblHeading.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 17</value>
+  </data>
+  <data name="lblHeading.Text" xml:space="preserve">
+    <value>Connectivity Settings</value>
+  </data>
+  <data name="&gt;&gt;lblHeading.Name" xml:space="preserve">
+    <value>lblHeading</value>
+  </data>
+  <data name="&gt;&gt;lblHeading.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblHeading.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblHeading.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;rdoGlobalSettings.Name" xml:space="preserve">
+    <value>rdoGlobalSettings</value>
+  </data>
+  <data name="&gt;&gt;rdoGlobalSettings.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rdoGlobalSettings.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;rdoGlobalSettings.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>Connectivity</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>TurtleMine.Controls.Template, TurtleMine, Version=1.2.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+</root>

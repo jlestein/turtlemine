@@ -1,0 +1,20 @@
+English							Other Language
+
+Turtlemine Configuration				
+Project Management					
+Projects						
+Default Settings					
+Connectivity						
+Words							
+Columns							
+Other							
+Updates							
+Import / Export						
+About							
+Turtlemine Configuration – Project Settings		
+Project							
+Project Details						
+Settings						
+Ok							
+Cancel							
+Apply							

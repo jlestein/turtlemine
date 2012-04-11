@@ -1,0 +1,319 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<!-- 
+		Microsoft ResX Schema 
+		
+		Version 2.0
+		
+		The primary goals of this format is to allow a simple XML format 
+		that is mostly human readable. The generation and parsing of the 
+		various data types are done through the TypeConverter classes 
+		associated with the data types.
+		
+		Example:
+		
+		... ado.net/XML headers & schema ...
+		<resheader name="resmimetype">text/microsoft-resx</resheader>
+		<resheader name="version">2.0</resheader>
+		<resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+		<resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+		<data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+		<data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+		<data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+				<value>[base64 mime encoded serialized .NET Framework object]</value>
+		</data>
+		<data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+				<value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+				<comment>This is a comment</comment>
+		</data>
+								
+		There are any number of "resheader" rows that contain simple 
+		name/value pairs.
+		
+		Each data row contains a name, and value. The row also contains a 
+		type or mimetype. Type corresponds to a .NET class that support 
+		text/value conversion through the TypeConverter architecture. 
+		Classes that don't support this are serialized and stored with the 
+		mimetype set.
+		
+		The mimetype is used for serialized objects, and tells the 
+		ResXResourceReader how to depersist the object. This is currently not 
+		extensible. For a given mimetype the value must be set accordingly:
+		
+		Note - application/x-microsoft.net.object.binary.base64 is the format 
+		that the ResXResourceWriter will generate, however the reader can 
+		read any of the formats listed below.
+		
+		mimetype: application/x-microsoft.net.object.binary.base64
+		value   : The object must be serialized with 
+						: System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+						: and then encoded with base64 encoding.
+		
+		mimetype: application/x-microsoft.net.object.soap.base64
+		value   : The object must be serialized with 
+						: System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+						: and then encoded with base64 encoding.
+
+		mimetype: application/x-microsoft.net.object.bytearray.base64
+		value   : The object must be serialized into a byte array 
+						: using a System.ComponentModel.TypeConverter
+						: and then encoded with base64 encoding.
+		-->
+	<xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+		<xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+		<xsd:element name="root" msdata:IsDataSet="true">
+			<xsd:complexType>
+				<xsd:choice maxOccurs="unbounded">
+					<xsd:element name="metadata">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" />
+							</xsd:sequence>
+							<xsd:attribute name="name" use="required" type="xsd:string" />
+							<xsd:attribute name="type" type="xsd:string" />
+							<xsd:attribute name="mimetype" type="xsd:string" />
+							<xsd:attribute ref="xml:space" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="assembly">
+						<xsd:complexType>
+							<xsd:attribute name="alias" type="xsd:string" />
+							<xsd:attribute name="name" type="xsd:string" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="data">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+								<xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+							<xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+							<xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+							<xsd:attribute ref="xml:space" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="resheader">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" use="required" />
+						</xsd:complexType>
+					</xsd:element>
+				</xsd:choice>
+			</xsd:complexType>
+		</xsd:element>
+	</xsd:schema>
+	<resheader name="resmimetype">
+		<value>text/microsoft-resx</value>
+	</resheader>
+	<resheader name="version">
+		<value>2.0</value>
+	</resheader>
+	<resheader name="reader">
+		<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<resheader name="writer">
+		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<data name="ImportExport" xml:space="preserve">
+		<value>Import / Export</value>
+		<comment>Import Export button text</comment>
+	</data>
+	<data name="ShowPassword" xml:space="preserve">
+		<value>S&amp;how</value>
+		<comment>Show password button</comment>
+	</data>
+	<data name="HidePassword" xml:space="preserve">
+		<value>&amp;Hide</value>
+		<comment>Hide Password button</comment>
+	</data>
+	<data name="Configuration_loadControls_Configuration_Utility" xml:space="preserve">
+		<value>TurtleMine Configuration</value>
+		<comment>Form title to display whne loading standard controls.</comment>
+	</data>
+	<data name="Configuration_LoadControlsProject_Configuration_Utility___Project_Settings" xml:space="preserve">
+		<value>TurtleMine Configuration - Project Settings</value>
+		<comment>Form title to display when loading project controls.</comment>
+	</data>
+	<data name="Connectivity_btnSSLPath_Click_Select_Certificate_File" xml:space="preserve">
+		<value>Select Certificate File</value>
+		<comment>Select Certificate File Dialog Title.</comment>
+	</data>
+	<data name="Connectivity_btnSSLPath_Click_Certificate_Files" xml:space="preserve">
+		<value>Certificate Files</value>
+		<comment>Select Certificate Files - Certificate Files Filter.</comment>
+	</data>
+	<data name="Connectivity_btnSSLPath_Click_All_Files" xml:space="preserve">
+		<value>All Files</value>
+		<comment>Select Certificate Files - All Files Filter.</comment>
+	</data>
+	<data name="ButtonText" xml:space="preserve">
+		<value>Redmine &amp;Issues</value>
+		<comment>The Caption that appears on the button on the TortoiseSVN form</comment>
+	</data>
+	<data name="ErrorInUpdatesConnectionMessage" xml:space="preserve">
+		<value>There was a problem establishing a connection to check for updates:{0}</value>
+		<comment>The message to display when a connection error occurs while checking for updates</comment>
+	</data>
+	<data name="ErrorInUpdatesConnectionTitle" xml:space="preserve">
+		<value>Unable to check for updates</value>
+		<comment>The title of the message to display when an error occurs while checking for updates</comment>
+	</data>
+	<data name="ErrorReadingIssuesListMessage" xml:space="preserve">
+		<value>An error has occurred retrieving the issue list:{0}</value>
+		<comment>The message to display when an error occurs retrieving the issues list</comment>
+	</data>
+	<data name="ErrorReadingIssuesListTitle" xml:space="preserve">
+		<value>Unable to read issue list</value>
+		<comment>The title of the message to display when an error occurs retrieving the issues list</comment>
+	</data>
+	<data name="IssueText" xml:space="preserve">
+		<value>Issue</value>
+		<comment>The text to apear in commit messages listing the issue numbers (Word List Item)</comment>
+	</data>
+	<data name="FeedParser_feedUrl_is_not_provided" xml:space="preserve">
+		<value>feedUrl is not provided. Please confirm the plugin settings in Tortoise.</value>
+		<comment>Error Message when Feed URL is missing.</comment>
+	</data>
+	<data name="ErrorColumnRequiredMessage" xml:space="preserve">
+		<value>You must keep at least one column!</value>
+		<comment>Message to display if all columns are removed in the column chooser</comment>
+	</data>
+	<data name="ErrorColumnRequiredTitle" xml:space="preserve">
+		<value>Column Missing</value>
+		<comment>Title of the message to display if all columns are removed in the column chooser</comment>
+	</data>
+	<data name="AtomLoadComplete" xml:space="preserve">
+		<value>Status : Download complete. {0} Issues displayed.</value>
+		<comment>Message to display when Atom feed has finished loading</comment>
+	</data>
+	<data name="AtomLoadFailed" xml:space="preserve">
+		<value>Status : Download failed</value>
+		<comment>Message to display when Atom feed fails to load</comment>
+	</data>
+	<data name="AtomLoading" xml:space="preserve">
+		<value>Status : Loading ATOM feed</value>
+		<comment>Message to display while Atom feed is loading</comment>
+	</data>
+	<data name="ColumnAuthor" xml:space="preserve">
+		<value>Author</value>
+		<comment>The issues list Author column</comment>
+	</data>
+	<data name="ColumnLastUpdated" xml:space="preserve">
+		<value>Last Updated</value>
+		<comment>The issues list Last Updated column</comment>
+	</data>
+	<data name="ColumnNumber" xml:space="preserve">
+		<value>#</value>
+		<comment>The issues list Number column</comment>
+	</data>
+	<data name="ColumnStatus" xml:space="preserve">
+		<value>Status</value>
+		<comment>The issues list Status column</comment>
+	</data>
+	<data name="ColumnSummary" xml:space="preserve">
+		<value>Summary</value>
+		<comment>The issues list Summary column</comment>
+	</data>
+	<data name="ColumnType" xml:space="preserve">
+		<value>Type</value>
+		<comment>The issues list Type column</comment>
+	</data>
+	<data name="SearchBoxNoResults" xml:space="preserve">
+		<value>Search</value>
+		<comment>The Search box header when no results are found or no search has been performed</comment>
+	</data>
+	<data name="SearchBoxWithResults" xml:space="preserve">
+		<value>Search : {0} occurrence(s)</value>
+		<comment>The Search box header with number or results in String formatter</comment>
+	</data>
+	<data name="VersionLabel" xml:space="preserve">
+		<value>Version</value>
+		<comment>Label to display version number</comment>
+	</data>
+	<data name="OptionsDialog_lnkFeedUrl_LinkClicked_Unable_to_open_link" xml:space="preserve">
+		<value>Unable to open link!</value>
+	</data>
+	<data name="OptionsDialog_lnkFeedUrl_LinkClicked_Failed" xml:space="preserve">
+		<value>Failed</value>
+	</data>
+	<data name="OptionsDialog_btnTest_Click_Success" xml:space="preserve">
+		<value>Success</value>
+	</data>
+	<data name="OptionsDialog_btnTest_Click_Successfully_read_atom_feed" xml:space="preserve">
+		<value>Successfully read atom feed: {0}</value>
+	</data>
+	<data name="Redmine" xml:space="preserve">
+		<value>Redmine &amp;Issues</value>
+	</data>
+	<data name="ProjectDetails_btnRepoPath_Click_Select_Repository_Location" xml:space="preserve">
+		<value>Select Repository Location</value>
+		<comment>Select Repository Location Folder Browser Title</comment>
+	</data>
+	<data name="ProjectDetails_btnRepoPath_Click_This_directory_can_not_be_identified_1" xml:space="preserve">
+		<value>This directory can not be identified as a know repository folder for Subversion, Git or Mecurial.</value>
+		<comment>Part one of can't identify directory message.</comment>
+	</data>
+	<data name="ProjectDetails_btnRepoPath_Click_This_directory_can_not_be_identified_2" xml:space="preserve">
+		<value>Do you wish to continue anyway?</value>
+		<comment>Second part of can't identify directory.</comment>
+	</data>
+	<data name="ProjectDetails_btnRepoPath_Click_Unknown_Repository_Type" xml:space="preserve">
+		<value>Unknown Repository Type</value>
+		<comment>Unknown Repository Type Message Box Title</comment>
+	</data>
+	<data name="ErrorConfirmContinue" xml:space="preserve">
+		<value>Do you wish to continue anyway?</value>
+		<comment>Confirm continue on error</comment>
+	</data>
+	<data name="Confirm_Reset_Title" xml:space="preserve">
+		<value>Confirm Reset</value>
+		<comment>Reset Confirmation Title</comment>
+	</data>
+	<data name="Confirm_Reset" xml:space="preserve">
+		<value>Are you sure you wish to reset to default? All Changes will be lost!</value>
+		<comment>Confirm Reset message</comment>
+	</data>
+	<data name="RefsText" xml:space="preserve">
+		<value>Refs</value>
+		<comment>The text to apear in commit messages listing the issue numbers (Word List Item)</comment>
+	</data>
+	<data name="NoneText" xml:space="preserve">
+		<value>None</value>
+		<comment>The text to apear in commit messages listing the issue numbers (Word List Item) - None means no text</comment>
+	</data>
+	<data name="SearchFieldAllFields" xml:space="preserve">
+		<value>All Fields</value>
+		<comment>Text to display to indicate search on all fields from search box.</comment>
+	</data>
+	<data name="Confirm_Delete" xml:space="preserve">
+		<value>Are you sure you wish to delete this item?</value>
+		<comment>Confirm delete message</comment>
+	</data>
+	<data name="Confirm_Delete_Title" xml:space="preserve">
+		<value>Confirm Delete</value>
+		<comment>Confirm Delete Title</comment>
+	</data>
+	<data name="ErrorWordRequiredMessage" xml:space="preserve">
+		<value>You must keep at least one word in the list!</value>
+		<comment>Message to display if all words are removed in the word list</comment>
+	</data>
+	<data name="ErrorWordRequiredTitle" xml:space="preserve">
+		<value>Word Missing</value>
+		<comment>Title of the message to display if all words are removed in the word list</comment>
+	</data>
+	<data name="AddWord" xml:space="preserve">
+		<value>New Word (Empty for a blank entry):</value>
+		<comment>Dialog prompt for adding word to word list</comment>
+	</data>
+	<data name="AddWord_Title" xml:space="preserve">
+		<value>Add Word</value>
+		<comment>Dialog title for adding word to word list</comment>
+	</data>
+	<data name="Error" xml:space="preserve">
+		<value>Error</value>
+		<comment>Default Error Dialog Title</comment>
+	</data>
+</root>

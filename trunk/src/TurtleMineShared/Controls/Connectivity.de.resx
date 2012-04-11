@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="grpSSL.Text" xml:space="preserve">
+    <value>SSL-Zertifikat</value>
+  </data>
+  <data name="rdoAuthProvidedCredentials.Text" xml:space="preserve">
+    <value>Authentifizierung mit eingegebenen &amp;Benutzerdaten</value>
+  </data>
+  <data name="rdoAuthCurrentUser.Text" xml:space="preserve">
+    <value>Authentifizierung mit aktueller &amp;Windows-Benutzerkennung</value>
+  </data>
+  <data name="btnShow.Text" xml:space="preserve">
+    <value>A&amp;nzeige</value>
+  </data>
+  <data name="lblUsername.Text" xml:space="preserve">
+    <value>&amp;Benutzername</value>
+  </data>
+  <data name="lblPassword.Text" xml:space="preserve">
+    <value>P&amp;assword</value>
+  </data>
+  <data name="grpAuthentication.Text" xml:space="preserve">
+    <value>Authentifikation</value>
+  </data>
+  <data name="grpProxy.Text" xml:space="preserve">
+    <value>Proxy-Einstellungen</value>
+  </data>
+  <data name="lblHeading.Text" xml:space="preserve">
+    <value>Verbindungseinstellungen</value>
+  </data>
+  <data name="lblSSLPath.Text" xml:space="preserve">
+    <value>Pfad des SS&amp;L-Zertifikats</value>
+  </data>
+  <data name="lblPort.Text" xml:space="preserve">
+    <value>Por&amp;t</value>
+  </data>
+  <data name="lblAddress.Text" xml:space="preserve">
+    <value>Adr&amp;esse</value>
+  </data>
+  <data name="btnInternetOptions.Text" xml:space="preserve">
+    <value>&amp;Internetoptionen</value>
+  </data>
+  <data name="rdoManualProxy.Text" xml:space="preserve">
+    <value>&amp;Manuelle Proxy-Einstellungen</value>
+  </data>
+  <data name="rdoWindowsProxy.Text" xml:space="preserve">
+    <value>&amp;Windows-Proxy-Einstellungen</value>
+  </data>
+  <data name="rdoNoProxy.Text" xml:space="preserve">
+    <value>&amp;Kein Proxy</value>
+  </data>
+  <data name="chkBypassProxy.Text" xml:space="preserve">
+  <value>&amp;Umgehe Proxy für lokale Adressen</value>
+  </data>
+</root>

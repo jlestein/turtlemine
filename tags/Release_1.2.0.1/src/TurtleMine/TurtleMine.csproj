@@ -1,0 +1,340 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{6F1A5334-54D4-4D68-9A95-72D41B0E8087}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>TurtleMine</RootNamespace>
+    <AssemblyName>TurtleMine</AssemblyName>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <ApplicationIcon>..\TurtleMineShared\Resources\TRMLogo.ico</ApplicationIcon>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <PublishUrl>http://localhost/TurtleMine/</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Web</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>true</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x64' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>..\bin\x64\Debug\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;WIN64</DefineConstants>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <NoStdLib>false</NoStdLib>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <NoWarn>1607</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x64' ">
+    <OutputPath>..\bin\x64\Release\</OutputPath>
+    <DefineConstants>TRACE;WIN64</DefineConstants>
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <NoWarn>1607</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>..\bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <OutputPath>..\bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.ServiceModel.Web">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="..\TurtleMineShared\Controls\Connectivity.cs">
+      <Link>Controls\Connectivity.cs</Link>
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="..\TurtleMineShared\Controls\Connectivity.designer.cs">
+      <Link>Controls\Connectivity.designer.cs</Link>
+      <DependentUpon>Connectivity.cs</DependentUpon>
+    </Compile>
+    <Compile Include="..\TurtleMineShared\Controls\Template.cs">
+      <Link>Controls\Template.cs</Link>
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="..\TurtleMineShared\Controls\Template.designer.cs">
+      <Link>Controls\Template.designer.cs</Link>
+      <DependentUpon>Template.cs</DependentUpon>
+    </Compile>
+    <Compile Include="..\TurtleMineShared\ProjectInfo.cs">
+      <Link>ProjectInfo.cs</Link>
+    </Compile>
+    <Compile Include="..\TurtleMineShared\Settings\Authentication.cs">
+      <Link>Settings\Authentication.cs</Link>
+    </Compile>
+    <Compile Include="..\TurtleMineShared\Settings\ColumnListColumn.cs">
+      <Link>Settings\ColumnListColumn.cs</Link>
+    </Compile>
+    <Compile Include="..\TurtleMineShared\Settings\ConnectionSettings.cs">
+      <Link>Settings\ConnectionSettings.cs</Link>
+    </Compile>
+    <Compile Include="..\TurtleMineShared\Settings\Crypto.cs">
+      <Link>Settings\Crypto.cs</Link>
+    </Compile>
+    <Compile Include="..\TurtleMineShared\Settings\IssueList.cs">
+      <Link>Settings\IssueList.cs</Link>
+    </Compile>
+    <Compile Include="..\TurtleMineShared\Settings\ManualProxy.cs">
+      <Link>Settings\ManualProxy.cs</Link>
+    </Compile>
+    <Compile Include="..\TurtleMineShared\Settings\Project.cs">
+      <Link>Settings\Project.cs</Link>
+    </Compile>
+    <Compile Include="..\TurtleMineShared\Settings\ProjectSCType.cs">
+      <Link>Settings\ProjectSCType.cs</Link>
+    </Compile>
+    <Compile Include="..\TurtleMineShared\Settings\ProvidedCredentials.cs">
+      <Link>Settings\ProvidedCredentials.cs</Link>
+    </Compile>
+    <Compile Include="..\TurtleMineShared\Settings\Proxy.cs">
+      <Link>Settings\Proxy.cs</Link>
+    </Compile>
+    <Compile Include="..\TurtleMineShared\Settings\ProxyType.cs">
+      <Link>Settings\ProxyType.cs</Link>
+    </Compile>
+    <Compile Include="..\TurtleMineShared\Settings\SettingsManager.cs">
+      <Link>Settings\SettingsManager.cs</Link>
+    </Compile>
+    <Compile Include="..\TurtleMineShared\Settings\UpdateInterval.cs">
+      <Link>Settings\UpdateInterval.cs</Link>
+    </Compile>
+    <Compile Include="..\TurtleMineShared\Settings\WordList.cs">
+      <Link>Settings\WordList.cs</Link>
+    </Compile>
+    <Compile Include="ColumnChooser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ColumnChooser.Designer.cs">
+      <DependentUpon>ColumnChooser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="..\TurtleMineShared\ColumnSorter.cs">
+      <Link>ColumnSorter.cs</Link>
+    </Compile>
+    <Compile Include="..\TurtleMineShared\ConnectionHelper.cs">
+      <Link>ConnectionHelper.cs</Link>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="..\TurtleMineShared\FeedItem.cs">
+      <Link>FeedItem.cs</Link>
+    </Compile>
+    <Compile Include="..\TurtleMineShared\FeedParser.cs">
+      <Link>FeedParser.cs</Link>
+    </Compile>
+    <Compile Include="ErrorDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ErrorDialog.Designer.cs">
+      <DependentUpon>ErrorDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IBugTraqProvider2.cs" />
+    <Compile Include="..\TurtleMineShared\ListboxSorter.cs">
+      <Link>ListboxSorter.cs</Link>
+    </Compile>
+    <Compile Include="OptionsDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OptionsDialog.Designer.cs">
+      <DependentUpon>OptionsDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OSInfo.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="..\TurtleMineShared\version.cs">
+      <Link>Properties\Version.cs</Link>
+    </Compile>
+    <Compile Include="IBugTraqProvider.cs" />
+    <Compile Include="IssuesForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IssuesForm.Designer.cs">
+      <DependentUpon>IssuesForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Plugin.cs" />
+    <Compile Include="..\TurtleMineShared\Resources\Strings.Designer.cs">
+      <Link>Resources\Strings.Designer.cs</Link>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Strings.resx</DependentUpon>
+    </Compile>
+    <Compile Include="..\TurtleMineShared\Resources\Images.Designer.cs">
+      <Link>Resources\Images.Designer.cs</Link>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Images.resx</DependentUpon>
+    </Compile>
+    <Compile Include="FormSettings.cs" />
+    <Compile Include="..\TurtleMineShared\VersionCheck.cs">
+      <Link>VersionCheck.cs</Link>
+    </Compile>
+    <Compile Include="VersionNotice.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VersionNotice.Designer.cs">
+      <DependentUpon>VersionNotice.cs</DependentUpon>
+    </Compile>
+    <Service Include="{94E38DFF-614B-4cbd-B67C-F211BB35CE8B}" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="..\TurtleMineShared\Controls\Connectivity.de.resx">
+      <Link>Controls\Connectivity.de.resx</Link>
+      <DependentUpon>Connectivity.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\TurtleMineShared\Controls\Connectivity.resx">
+      <Link>Controls\Connectivity.resx</Link>
+      <DependentUpon>Connectivity.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\TurtleMineShared\Controls\Template.de.resx">
+      <Link>Controls\Template.de.resx</Link>
+      <DependentUpon>Template.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\TurtleMineShared\Controls\Template.resx">
+      <Link>Controls\Template.resx</Link>
+      <DependentUpon>Template.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\TurtleMineShared\Resources\Strings.de.resx">
+      <Link>Resources\Strings.de.resx</Link>
+      <DependentUpon>Strings.resx</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ColumnChooser.de.resx">
+      <DependentUpon>ColumnChooser.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ErrorDialog.de.resx">
+      <DependentUpon>ErrorDialog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ErrorDialog.resx">
+      <DependentUpon>ErrorDialog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IssuesForm.de.resx">
+      <DependentUpon>IssuesForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IssuesForm.resx">
+      <DependentUpon>IssuesForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OptionsDialog.de.resx">
+      <DependentUpon>OptionsDialog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OptionsDialog.resx">
+      <DependentUpon>OptionsDialog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="ColumnChooser.resx">
+      <DependentUpon>ColumnChooser.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\TurtleMineShared\Resources\Strings.resx">
+      <Link>Resources\Strings.resx</Link>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Strings.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\TurtleMineShared\Resources\Images.resx">
+      <Link>Resources\Images.resx</Link>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Images.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VersionNotice.de.resx">
+      <DependentUpon>VersionNotice.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VersionNotice.resx">
+      <DependentUpon>VersionNotice.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Condition="Exists('$(MSBuildExtensionsPath)\MSBuildCommunityTasks\MSBuild.Community.Tasks.Targets')" Project="$(MSBuildExtensionsPath)\MSBuildCommunityTasks\MSBuild.Community.Tasks.Targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <!--<UsingTask AssemblyName="$(MSBuildBinPath)\AssemblyInfoTask\AssemblyInfoTask.dll" TaskName="AssemblyInfo"/>
+  <Target Name="BeforeBuild">
+    <AssemblyInfo Condition="Exists('$(MSBuildExtensionsPath)\MSBuildCommunityTasks\MSBuild.Community.Tasks.Targets') AND '$(Version)'!=''" CodeLanguage="CS" OutputFile="$(MSBuildProjectDirectory)\Properties\AssemblyInfo.cs" AssemblyTitle="TortoiseIssueList" AssemblyDescription="TortoiseIssueList" AssemblyConfiguration="" AssemblyCompany="TortoiseIssueList" AssemblyProduct="TortoiseIssueList" AssemblyCopyright="Copyright (c) TortoiseIssueList, 2008" AssemblyTrademark="" ComVisible="false" CLSCompliant="true" Guid="de1d989b-e15f-4de6-9be9-6f6dc2aed99c" AssemblyVersion="$(Version)" AssemblyFileVersion="$(Version)" />
+  </Target>-->
+</Project>

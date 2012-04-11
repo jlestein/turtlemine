@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="SettingsManager">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="Projects" minOccurs="0">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="Project" type="Project" minOccurs="0" maxOccurs="unbounded" />
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="Connectivity" type="ConnectionSettings" />
+                <xs:element name="Words" type="WordList" />
+                <xs:element name="Columns" type="ColumnList" />
+                <xs:element name="Updates">
+                    <xs:simpleType>
+                        <xs:restriction base="xs:string">
+                            <xs:enumeration value="NoAutoCheck" />
+                            <xs:enumeration value="CheckDaily" />
+                            <xs:enumeration value="CheckWeekly" />
+                            <xs:enumeration value="CheckEveryStartup" />
+                        </xs:restriction>
+                    </xs:simpleType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:complexType name="ConnectionSettings">
+        <xs:sequence>
+            <xs:element name="Proxy">
+                <xs:complexType>
+                    <xs:choice>
+                        <xs:element name="NoProxy" type="xs:boolean" />
+                        <xs:element name="WindowsProxy" type="xs:boolean" />
+                        <xs:element name="ManualProxy">
+                            <xs:complexType>
+                                <xs:simpleContent>
+                                    <xs:extension base="xs:boolean">
+                                        <xs:attribute name="Address" type="xs:string" />
+                                        <xs:attribute name="Port" type="xs:integer" />
+                                        <xs:attribute name="BypassLocal" type="xs:boolean" />
+                                    </xs:extension>
+                                </xs:simpleContent>
+                            </xs:complexType>
+                        </xs:element>
+                    </xs:choice>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="Authentication">
+                <xs:complexType>
+                    <xs:choice>
+                        <xs:element name="CurrentUser" type="xs:boolean" />
+                        <xs:element name="ProvidedCredentials">
+                            <xs:complexType>
+                                <xs:simpleContent>
+                                    <xs:extension base="xs:boolean">
+                                        <xs:attribute name="Username" type="xs:string" />
+                                        <xs:attribute name="Password" type="xs:string" />
+                                    </xs:extension>
+                                </xs:simpleContent>
+                            </xs:complexType>
+                        </xs:element>
+                    </xs:choice>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="SSLCertPath" type="xs:string" minOccurs="0" />
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="WordList">
+        <xs:sequence>
+            <xs:element name="Word" type="xs:string" minOccurs="0" maxOccurs="unbounded" />
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="ColumnList">
+        <xs:sequence>
+            <xs:element name="Column" minOccurs="0" maxOccurs="unbounded">
+                <xs:complexType>
+                    <xs:simpleContent>
+                        <xs:extension base="xs:string">
+                            <xs:attribute name="Hidden" type="xs:boolean" />
+                        </xs:extension>
+                    </xs:simpleContent>
+                </xs:complexType>
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="IssueList">
+        <xs:sequence>
+            <xs:element name="Name" type="xs:string" />
+            <xs:element name="URL" type="xs:anyURI" />
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="Project">
+        <xs:sequence>
+            <xs:element name="RepoName" type="xs:string" />
+            <xs:element name="RepoPath" type="xs:string" />
+            <xs:element name="SCType">
+                <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                        <xs:enumeration value="SVN" />
+                        <xs:enumeration value="GIT" />
+                        <xs:enumeration value="HG" />
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
+            <xs:element name="RequireIssueNumber" type="xs:boolean" />
+            <xs:element name="IssueLists">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="IssueList" type="IssueList" minOccurs="0" maxOccurs="unbounded" />
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="Connectivity" type="ConnectionSettings" minOccurs="0" />
+            <xs:element name="Words" type="WordList" minOccurs="0" />
+            <xs:element name="Columns" type="ColumnList" minOccurs="0" />
+        </xs:sequence>
+    </xs:complexType>
+</xs:schema>

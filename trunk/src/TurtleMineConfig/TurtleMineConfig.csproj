@@ -1,0 +1,369 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{C99D57C0-E375-40B2-B9B8-78529172DD76}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>TurtleMine</RootNamespace>
+    <AssemblyName>TurtleMineConfig</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>true</IsWebBootstrapper>
+    <PublishUrl>http://localhost/TurtleMineConfig/</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Web</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>TurtleMine.Program</StartupObject>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>..\TurtleMineShared\Resources\TRMLogo.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>..\bin\x64\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <CodeAnalysisLogFile>bin\Debug\TurtleMineConfig.exe.CodeAnalysisLog.xml</CodeAnalysisLogFile>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSetDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\\Rule Sets</CodeAnalysisRuleSetDirectories>
+    <CodeAnalysisRuleDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\FxCop\\Rules</CodeAnalysisRuleDirectories>
+    <NoWarn>1607</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>..\bin\x64\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <CodeAnalysisLogFile>bin\Release\TurtleMineConfig.exe.CodeAnalysisLog.xml</CodeAnalysisLogFile>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSetDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\\Rule Sets</CodeAnalysisRuleSetDirectories>
+    <CodeAnalysisIgnoreBuiltInRuleSets>false</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisRuleDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\FxCop\\Rules</CodeAnalysisRuleDirectories>
+    <NoWarn>1607</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.ServiceModel.Web" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="..\TurtleMineShared\ColumnSorter.cs">
+      <Link>ColumnSorter.cs</Link>
+    </Compile>
+    <Compile Include="..\TurtleMineShared\ConnectionHelper.cs">
+      <Link>ConnectionHelper.cs</Link>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="..\TurtleMineShared\ListboxSorter.cs">
+      <Link>ListboxSorter.cs</Link>
+    </Compile>
+    <Compile Include="..\TurtleMineShared\FeedItem.cs">
+      <Link>FeedItem.cs</Link>
+    </Compile>
+    <Compile Include="..\TurtleMineShared\FeedParser.cs">
+      <Link>FeedParser.cs</Link>
+    </Compile>
+    <Compile Include="..\TurtleMineShared\ProjectInfo.cs">
+      <Link>ProjectInfo.cs</Link>
+    </Compile>
+    <Compile Include="..\TurtleMineShared\Resources\Strings.Designer.cs">
+      <Link>Resources\Strings.Designer.cs</Link>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Strings.resx</DependentUpon>
+    </Compile>
+    <Compile Include="..\TurtleMineShared\Resources\Images.Designer.cs">
+      <Link>Resources\Images.Designer.cs</Link>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Images.resx</DependentUpon>
+    </Compile>
+    <Compile Include="..\TurtleMineShared\Settings\WordList.cs">
+      <Link>Settings\WordList.cs</Link>
+    </Compile>
+    <Compile Include="..\TurtleMineShared\VersionCheck.cs">
+      <Link>VersionCheck.cs</Link>
+    </Compile>
+    <Compile Include="Configuration.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Configuration.Designer.cs">
+      <DependentUpon>Configuration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\About.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\About.Designer.cs">
+      <DependentUpon>About.cs</DependentUpon>
+    </Compile>
+    <Compile Include="..\TurtleMineShared\Controls\Columns.cs">
+      <Link>Controls\Columns.cs</Link>
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="..\TurtleMineShared\Controls\Columns.Designer.cs">
+      <Link>Controls\Columns.designer.cs</Link>
+      <DependentUpon>Columns.cs</DependentUpon>
+    </Compile>
+    <Compile Include="..\TurtleMineShared\Controls\Connectivity.cs">
+      <Link>Controls\Connectivity.cs</Link>
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="..\TurtleMineShared\Controls\Connectivity.designer.cs">
+      <Link>Controls\Connectivity.designer.cs</Link>
+      <DependentUpon>Connectivity.cs</DependentUpon>
+    </Compile>
+    <Compile Include="..\TurtleMineShared\Controls\Template.cs">
+      <Link>Controls\Template.cs</Link>
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="..\TurtleMineShared\Controls\Template.designer.cs">
+      <Link>Controls\Template.designer.cs</Link>
+      <DependentUpon>Template.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\ImportExport.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\ImportExport.Designer.cs">
+      <DependentUpon>ImportExport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\ProjectDetails.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\ProjectDetails.Designer.cs">
+      <DependentUpon>ProjectDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Updates.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\Updates.Designer.cs">
+      <DependentUpon>Updates.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Words.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\Words.Designer.cs">
+      <DependentUpon>Words.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="..\TurtleMineShared\version.cs">
+      <Link>Properties\Version.cs</Link>
+    </Compile>
+    <Compile Include="Controls\Projects.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\Projects.Designer.cs">
+      <DependentUpon>Projects.cs</DependentUpon>
+    </Compile>
+    <Compile Include="..\TurtleMineShared\Settings\ColumnListColumn.cs">
+      <Link>Settings\ColumnListColumn.cs</Link>
+    </Compile>
+    <Compile Include="..\TurtleMineShared\Settings\ConnectionSettings.cs">
+      <Link>Settings\ConnectionSettings.cs</Link>
+    </Compile>
+    <Compile Include="..\TurtleMineShared\Settings\Authentication.cs">
+      <Link>Settings\Authentication.cs</Link>
+    </Compile>
+    <Compile Include="..\TurtleMineShared\Settings\ProvidedCredentials.cs">
+      <Link>Settings\ProvidedCredentials.cs</Link>
+    </Compile>
+    <Compile Include="..\TurtleMineShared\Settings\Proxy.cs">
+      <Link>Settings\Proxy.cs</Link>
+    </Compile>
+    <Compile Include="..\TurtleMineShared\Settings\ManualProxy.cs">
+      <Link>Settings\ManualProxy.cs</Link>
+    </Compile>
+    <Compile Include="..\TurtleMineShared\Settings\Crypto.cs">
+      <Link>Settings\Crypto.cs</Link>
+    </Compile>
+    <Compile Include="..\TurtleMineShared\Settings\IssueList.cs">
+      <Link>Settings\IssueList.cs</Link>
+    </Compile>
+    <Compile Include="..\TurtleMineShared\Settings\ProxyType.cs">
+      <Link>Settings\ProxyType.cs</Link>
+    </Compile>
+    <Compile Include="..\TurtleMineShared\Settings\UpdateInterval.cs">
+      <Link>Settings\UpdateInterval.cs</Link>
+    </Compile>
+    <Compile Include="..\TurtleMineShared\Settings\Project.cs">
+      <Link>Settings\Project.cs</Link>
+    </Compile>
+    <Compile Include="..\TurtleMineShared\Settings\ProjectSCType.cs">
+      <Link>Settings\ProjectSCType.cs</Link>
+    </Compile>
+    <Compile Include="..\TurtleMineShared\Settings\SettingsManager.cs">
+      <Link>Settings\SettingsManager.cs</Link>
+    </Compile>
+    <EmbeddedResource Include="..\TurtleMineShared\Controls\Connectivity.de.resx">
+      <Link>Controls\Connectivity.de.resx</Link>
+      <DependentUpon>Connectivity.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\TurtleMineShared\Controls\Template.de.resx">
+      <Link>Controls\Template.de.resx</Link>
+      <DependentUpon>Template.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\TurtleMineShared\Resources\Strings.de.resx">
+      <Link>Resources\Strings.de.resx</Link>
+      <DependentUpon>Strings.resx</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\TurtleMineShared\Resources\Strings.resx">
+      <Link>Resources\Strings.resx</Link>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Strings.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\TurtleMineShared\Resources\Images.resx">
+      <Link>Resources\Images.resx</Link>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Images.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Configuration.de.resx">
+      <DependentUpon>Configuration.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Configuration.resx">
+      <DependentUpon>Configuration.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\About.de.resx">
+      <DependentUpon>About.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\About.resx">
+      <DependentUpon>About.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\TurtleMineShared\Controls\Columns.de.resx">
+      <Link>Controls\Columns.de.resx</Link>
+      <DependentUpon>Columns.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\TurtleMineShared\Controls\Columns.resx">
+      <Link>Controls\Columns.resx</Link>
+      <DependentUpon>Columns.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\TurtleMineShared\Controls\Connectivity.resx">
+      <Link>Controls\Connectivity.resx</Link>
+      <DependentUpon>Connectivity.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\TurtleMineShared\Controls\Template.resx">
+      <Link>Controls\Template.resx</Link>
+      <DependentUpon>Template.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\ImportExport.de.resx">
+      <DependentUpon>ImportExport.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\ImportExport.resx">
+      <DependentUpon>ImportExport.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\ProjectDetails.de.resx">
+      <DependentUpon>ProjectDetails.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\ProjectDetails.resx">
+      <DependentUpon>ProjectDetails.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Projects.de.resx">
+      <DependentUpon>Projects.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Updates.de.resx">
+      <DependentUpon>Updates.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Updates.resx">
+      <DependentUpon>Updates.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Words.de.resx">
+      <DependentUpon>Words.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Words.resx">
+      <DependentUpon>Words.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Projects.resx">
+      <DependentUpon>Projects.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

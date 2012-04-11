@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="btnVerifyLinks.Text" xml:space="preserve">
+    <value>&amp;Verify Links</value>
+  </data>
+  <data name="ListName.HeaderText" xml:space="preserve">
+    <value>List Name</value>
+  </data>
+  <data name="IssuesURL.HeaderText" xml:space="preserve">
+    <value>Redmine Issues URL</value>
+  </data>
+  <data name="grpRedmineIssues.Text" xml:space="preserve">
+    <value>Project Redmine Issue Lists</value>
+  </data>
+  <data name="chkRequireIssueNumber.Text" xml:space="preserve">
+    <value>Require &amp;Issue Number in Commit Message</value>
+  </data>
+  <data name="lblRepoName.Text" xml:space="preserve">
+    <value>Repository &amp;Name</value>
+  </data>
+  <data name="lblRepoPath.Text" xml:space="preserve">
+    <value>&amp;Repository Path</value>
+  </data>
+  <data name="grpNameLocation.Text" xml:space="preserve">
+    <value>Project Name and Location</value>
+  </data>
+  <data name="lblHeading.Text" xml:space="preserve">
+    <value>Project Details</value>
+  </data>
+</root>
