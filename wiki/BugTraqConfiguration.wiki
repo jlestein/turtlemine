@@ -6,7 +6,7 @@
 See the BugTraq wiki page for details as to what !BugTraq is. Also note that these instructions illustrate setting this up for Tortoise SVN.  It is a similar process in Tortoise Git and Tortoise Hg.
 
 == Setup / Import ==
-  * Download the sample !BugTraq file from the [http://code.google.com/p/redmine-projects/downloads/list downloads] tab above.
+  * Download the sample !BugTraq file from the [http://code.google.com/p/turtlemine/downloads/list downloads] tab above.
   * Browse to The folder containing the _repository_ you wish to hook up !BugTraq to your Redmine issues list. The root most folder of your repository is the best place to do this.
   * Right click on the folder and go the   *Properties* under the *TortoiseSVN* menu.
 
