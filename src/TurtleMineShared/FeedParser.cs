@@ -42,7 +42,7 @@ namespace TurtleMine
 			}
 
 			//Remove BaseRedmineUrl and "Issues" wording
-			projectUrlPath = feed.Links[0].Uri.AbsoluteUri.Replace(baseRedmineUrl, String.Empty).Replace("/issues.atom", String.Empty).Replace("/issues", String.Empty);
+			projectUrlPath = feed.Links[0].Uri.AbsoluteUri.Replace(baseRedmineUrl, String.Empty).Replace("issues.atom", String.Empty).Replace("/issues", String.Empty);
 
 			//Also remove Url Query info if exists
 			if (!String.IsNullOrEmpty(feed.Links[0].Uri.Query))
