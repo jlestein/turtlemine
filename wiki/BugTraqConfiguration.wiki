@@ -1,81 +1,49 @@
-<!DOCTYPE html>
-<html class="google" lang="en" ng-app="codesiteArchive.application">
+#summary How to setup BugTraq for tighter integration between Tortoise and Redmine.
+#labels Phase-Implementation,Featured
 
-  <head>
-    <meta charset="utf-8">
-    <meta content="initial-scale=1, minimum-scale=1, width=device-width" name="viewport">
+= Adding !BugTraq properties to your repository =
 
-    <!-- https://developers.google.com/webmasters/ajax-crawling/docs/specification -->
-    <meta name="fragment" content="!">
-    <title>Google Code Archive - Long-term storage for Google Code Project Hosting.</title>
+See the BugTraq wiki page for details as to what !BugTraq is. Also note that these instructions illustrate setting this up for Tortoise SVN.  It is a similar process in Tortoise Git and Tortoise Hg.
 
-    <link rel="icon" type="image/vnd.microsoft.icon" href="/archive/img/project-hosting.ico">
-    <script src="//www.google.com/js/google.js"></script>
-    <link href="//www.google.com/css/maia.css" rel="stylesheet">
-    <link
-        href="//fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&amp;lang=en"
-        rel="stylesheet">
-    <link rel="stylesheet" href="/archive/archive_css.css">
-    <script>
-      CLOSURE_NO_DEPS = true;
-    </script>
-    <script src="/archive/angular.js"></script>
-    <script src="/archive/pagedown.js"></script>
-    <script src="/archive/archive.js"></script>
-    <base href="/archive/">
-  </head>
+== Setup / Import ==
+  * Download the sample !BugTraq file from the [http://code.google.com/p/redmine-projects/downloads/list downloads] tab above.
+  * Browse to The folder containing the _repository_ you wish to hook up !BugTraq to your Redmine issues list. The root most folder of your repository is the best place to do this.
+  * Right click on the folder and go the   *Properties* under the *TortoiseSVN* menu.
 
-  <body>
-    <div class="maia-header" id="maia-header" role="banner">
-      <div class="maia-aux">
-        <a href="/archive/">
-          <h1>
-            <img alt="Google" src="//www.google.com/images/branding/googlelogo/1x/googlelogo_color_116x41dp.png"> Code</a>
-          </h1>
-        </a>
-        <a href="/archive/">
-          <h2>
-            Archive
-          </h2>
-        </a>
-        <a class="maia-teleport" href="#content">Skip to content</a>
-        <div class="maia-util">
-          <form action="/archive/search" class="maia-search">
-            <input name="q" placeholder="Search this site" type="text">
-            <button class="maia-button">
-              <span class="maia-search-icon">Search</span>
-            </button>
-          </form>
-        </div>
-      </div>
-    </div>
+http://turtlemine.googlecode.com/svn/trunk/Images/Screenshots/bugtraq01.png
+ 
 
-    <div ng-view></div>
+  * In the Properties dialog box click on   *Import*.
 
-    <div id="maia-signature"></div>
-    <div class="maia-footer" id="maia-footer">
-      <div id="maia-footer-local">
-      </div>
-      <div id="maia-footer-global">
-        <div class="maia-aux">
-          <ul>
-            <li>
-              <a href="//www.google.com/">Google</a>
-            </li>
-            <li>
-              <a href="//www.google.com/intl/en/about/">About Google</a>
-            </li>
-            <li>
-              <a href="//www.google.com/intl/en/policies/privacy/">Privacy</a>
-            </li>
-            <li>
-              <a href="//www.google.com/intl/en/policies/terms/">Terms</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </div>
-    <script src="//www.google.com/js/maia.js"></script>
-  </body>
+http://turtlemine.googlecode.com/svn/trunk/Images/Screenshots/bugtraq02.png
+ 
 
-</html>
+  * Browse to the sample properties file that you downloaded and click ok to import it.
+  * you will need to update one property.
+  ** For the _bugtraq:url_ you will need to *change* this to the URL of your Redmine server.  It is important to note that you need to keep the "/issues/%BUGID%" after the server location.
+
+http://turtlemine.googlecode.com/svn/trunk/Images/Screenshots/bugtraq03.png
+
+ 
+  * In order for the properties to apply to the whole repository instead of just the selected folder you need to click on *edit* and select *Apply Property Recursively*.
+
+http://turtlemine.googlecode.com/svn/trunk/Images/Screenshots/bugtraq04.png
+
+
+  * *You will now need to commit the changes to your repository.*
+
+_*Note*: In some cases you may receive an error when you try and commit if your repository is out of date so you will need to do an update before you can commit._
+
+== Usage / Benefits ==
+
+Adding !BugTraq to your repository gives you a few new useful features.  Primarily it gives you a link between TortoiseSVN/Git/Hg and your Redmine issues.
+This connection is provided in two ways:
+
+  * It provides clickable links to your Redmine issues directly in your commit dialog window or log messages window.
+
+http://turtlemine.googlecode.com/svn/trunk/Images/Screenshots/bugtraq05.png
+
+
+  * It adds a Bug ID column to your log messages window that allows you to easily see, sort and filter on the issue id number that you associated with commit.
+
+http://turtlemine.googlecode.com/svn/trunk/Images/Screenshots/bugtraq06.png

@@ -1,81 +1,85 @@
-<!DOCTYPE html>
-<html class="google" lang="en" ng-app="codesiteArchive.application">
+#summary Instructions on how to install and setup the plugin for use in Tortoise Svn.
+#labels Featured,Phase-Deploy
 
-  <head>
-    <meta charset="utf-8">
-    <meta content="initial-scale=1, minimum-scale=1, width=device-width" name="viewport">
+= Installation / Setup =
 
-    <!-- https://developers.google.com/webmasters/ajax-crawling/docs/specification -->
-    <meta name="fragment" content="!">
-    <title>Google Code Archive - Long-term storage for Google Code Project Hosting.</title>
+== Install == 
+  * Download the installer from the [http://code.google.com/p/turtlemine/downloads/list downloads] tab above.
+  * Run the installer; with Vista/Windows 7 This may require accepting UAC windows.
+  * Accept the License Agreement (if you agree with it) _MIT LICENSE_.
+  * Continue the installation to completion.
 
-    <link rel="icon" type="image/vnd.microsoft.icon" href="/archive/img/project-hosting.ico">
-    <script src="//www.google.com/js/google.js"></script>
-    <link href="//www.google.com/css/maia.css" rel="stylesheet">
-    <link
-        href="//fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&amp;lang=en"
-        rel="stylesheet">
-    <link rel="stylesheet" href="/archive/archive_css.css">
-    <script>
-      CLOSURE_NO_DEPS = true;
-    </script>
-    <script src="/archive/angular.js"></script>
-    <script src="/archive/pagedown.js"></script>
-    <script src="/archive/archive.js"></script>
-    <base href="/archive/">
-  </head>
+== Setup ==
 
-  <body>
-    <div class="maia-header" id="maia-header" role="banner">
-      <div class="maia-aux">
-        <a href="/archive/">
-          <h1>
-            <img alt="Google" src="//www.google.com/images/branding/googlelogo/1x/googlelogo_color_116x41dp.png"> Code</a>
-          </h1>
-        </a>
-        <a href="/archive/">
-          <h2>
-            Archive
-          </h2>
-        </a>
-        <a class="maia-teleport" href="#content">Skip to content</a>
-        <div class="maia-util">
-          <form action="/archive/search" class="maia-search">
-            <input name="q" placeholder="Search this site" type="text">
-            <button class="maia-button">
-              <span class="maia-search-icon">Search</span>
-            </button>
-          </form>
-        </div>
-      </div>
-    </div>
+=== Prerequisites === 
 
-    <div ng-view></div>
+  * TortoiseSVN
+  * Something using TortoiseSVN (A Working Repository)
+  * Basic understanding of terms like "Working Directory / Repository"
 
-    <div id="maia-signature"></div>
-    <div class="maia-footer" id="maia-footer">
-      <div id="maia-footer-local">
-      </div>
-      <div id="maia-footer-global">
-        <div class="maia-aux">
-          <ul>
-            <li>
-              <a href="//www.google.com/">Google</a>
-            </li>
-            <li>
-              <a href="//www.google.com/intl/en/about/">About Google</a>
-            </li>
-            <li>
-              <a href="//www.google.com/intl/en/policies/privacy/">Privacy</a>
-            </li>
-            <li>
-              <a href="//www.google.com/intl/en/policies/terms/">Terms</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </div>
-    <script src="//www.google.com/js/maia.js"></script>
-  </body>
+=== Configuring the TortoiseSVN Redmine Plugin ===
 
-</html>
+  * Browse to The folder containing the _repository_ you wish to hook up to your Redmine issues list.
+  * Right click on the folder and go to *Settings* under the *TortoiseSVN* menu.
+http://turtlemine.googlecode.com/svn/trunk/Images/Screenshots/tsvn01.png
+
+
+  * In the Settings dialog, select *Issue Tracking Integration* and click the *Add* button.
+http://turtlemine.googlecode.com/svn/trunk/Images/Screenshots/tsvn02.png
+
+
+  * To _configure Issue Tracker Integration_ for !TurtleMine you need to specify three values.
+    # Set the _Working Copy Path_ to the local repository location.
+    # Set the _Provider_ to the *!TurtleMine* Provider.  (If this is the only provider you have it will most likely be pre-selected).
+    # Set the _Parameters_ field to the *ATOM Feed URL* from your Redmine Issues Page for the issues that you wish to be available to include in your commit comments. (See below for more details).
+
+==== To get the ATOM Feed URL ====
+  * Browse to the issue list you wish to use. 
+  * At the bottom of the page will be a link to the *ATOM Feed* for the page.  Right click on this link and copy the URL or shortcut.
+  * Paste this URL into the _Parameters_ field mentioned above.
+http://turtlemine.googlecode.com/svn/trunk/Images/Screenshots/tsvn03.png 
+
+
+  * Your final configuration should look something like the below.
+http://turtlemine.googlecode.com/svn/trunk/Images/Screenshots/tsvn04.png
+
+  * Click on the _Options_ button to test your connection or configure connectivity options. (this step is optional)
+    * Click _Test_ to test the connection to Redmine and retrieval of the issues list.
+	* Click on _Connection Settings_ to expand the Connection Settings options to configure your Proxy Server, Authentication, or SSL requirements.
+http://turtlemine.googlecode.com/svn/trunk/Images/Screenshots/tsvn05.png
+
+http://turtlemine.googlecode.com/svn/trunk/Images/Screenshots/tsvn06.png
+
+
+  * Once you click OK and return to the Tortoise SVN window, you should now see the listing in the Issue Tracking Integration list.
+http://turtlemine.googlecode.com/svn/trunk/Images/Screenshots/tsvn07.png 
+
+
+=== Using the basic functions of !TurtleMine ===
+
+  * Bring up the TortoiseSVN commit dialog as you would normally do so.  There will be a new *Redmine Issues* button at the top right of the dialog window.
+http://turtlemine.googlecode.com/svn/trunk/Images/Screenshots/tsvn08.png
+ 
+ 
+  * Click the Redmine Issues button to bring up the !TurtleMine window.
+http://turtlemine.googlecode.com/svn/trunk/Images/Screenshots/tsvn09.png
+
+  * Here you will be able to select a Redmine issue to include in your commit message.  Some of the functionality is listed below.
+    * A) A basic search box to search within the issues.
+    * B) A drop down list to choose which fields to search on, the default is all fields.
+    * C) A Next button to move the selection through the found results.
+    * D) A Check button to select (check) all highlighted or found issues.
+    * E) The main issue list display window.
+    * F) The Issue Description window (this is hidden by default, See _I_ for details).
+    * G) Opens your default web browser to the page for the selected Redmine issue.
+    * H) Opens your default web browser to the page for Time Entry page for the selected Redmine issue.
+    * I) Toggles the description window visibility.
+    * J) If selected, includes the issue summary text as well as the issue number in your commit message.
+    * K) _Ok_, to add the selected issues to your commit message, otherwise _Cancel_ adding issues.
+
+  * You can also right click in the main issue list window to bring up display customization options.
+http://turtlemine.googlecode.com/svn/trunk/Images/Screenshots/tsvn10.png
+
+
+  * Select the issue number you wish to include then click *OK*.  The Issue number/s will be appended to the end of your existing commit message.
+http://turtlemine.googlecode.com/svn/trunk/Images/Screenshots/tsvn11.png
