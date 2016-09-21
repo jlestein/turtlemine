@@ -16,7 +16,7 @@ namespace TurtleMine
         /// </summary>
         public VersionCheck()
         {
-            const string versionUrl = "http://turtlemine.googlecode.com/svn/trunk/Version/Version.xml";
+            const string versionUrl = "https://raw.githubusercontent.com/jlestein/turtlemine/master/Version/Version.xml";
             
             try
             {
