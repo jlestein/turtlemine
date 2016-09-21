@@ -3,7 +3,7 @@
 
 ## Important Note
 
-This project was moved to GitHub from google code (<https://github.com/jlestein/turtlemine>).
+This project was moved to GitHub from google code (<https://code.google.com/archive/p/turtlemine/>).
 
 For now to download the installer please do so from downloads folder in the project source.
 
