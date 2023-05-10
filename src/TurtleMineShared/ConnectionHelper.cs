@@ -81,10 +81,17 @@ namespace TurtleMine
 			var client = new CertWebClient { Proxy = prox, Credentials = cred, CertPath = certPath };
 
 			//Provide support for SSL by accepting all certificates
-			ServicePointManager.ServerCertificateValidationCallback += delegate { return true; };  
+			ServicePointManager.ServerCertificateValidationCallback += delegate { return true; };
 
-			//Read the url
-			if (url != null)
+            //Support TLS 1.2 by manually providing a proper value for the certificate. Other versions of the protocol are listed below.
+            //Ssl3 = 48, Tls = 192, Tls11 = 768, Tls12 = 3072
+            //ServicePointManager.SecurityProtocol = (SecurityProtocolType)48 | (SecurityProtocolType)192 | (SecurityProtocolType)768 | (SecurityProtocolType)3072;
+            //Author: Kenan Dervišević
+            //Company: Siemens Mobility
+            ServicePointManager.SecurityProtocol = (SecurityProtocolType)3072;
+
+            //Read the url
+            if (url != null)
 			{
 				var rmstream = client.OpenRead(url);
 				if (rmstream != null)
